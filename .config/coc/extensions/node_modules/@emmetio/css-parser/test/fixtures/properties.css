@@ -1,5 +1,0 @@
-@a: 10;
-$bc: foo;
-@import "url";
-@import "a", "b";
-@import url("foo bar")
