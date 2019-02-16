@@ -1,0 +1,3 @@
+[2019-02-11 22:04:56.010] [renderer1] [info] no standard startup: not the explorer viewlet
+[2019-02-11 22:08:28.697] [renderer1] [info] no standard startup: not just one text editor
+[2019-02-11 22:10:10.524] [renderer1] [warning] {"name":"TypeError","message":"r.sequence(...).finally is not a function"}

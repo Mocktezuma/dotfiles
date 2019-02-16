@@ -1,0 +1,186 @@
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/adri/.config/discord/0.0.8/modules
+[Modules] Module installed file path: /home/adri/.config/discord/0.0.8/modules/installed.json
+[Modules] Module download path: /home/adri/.config/discord/0.0.8/modules/pending
+[Modules] Bootstrapping...
+[Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+[Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+[Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+[Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+[Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+[Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+[Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+[Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+[Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+[Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+[Modules] Finished module installations. [success: 0] [failure: 5]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] Module update available: discord_desktop_core@2 [installed: 0]
+[Modules] Module update available: discord_erlpack@1 [installed: 0]
+[Modules] Module update available: discord_spellcheck@1 [installed: 0]
+[Modules] Module update available: discord_utils@2 [installed: 0]
+[Modules] Module update available: discord_voice@3 [installed: 0]
+[Modules] Fetching discord_desktop_core@2 from https://discordapp.com/api/modules/stable/discord_desktop_core/2
+[Modules] Streaming discord_desktop_core@2 [1673938 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_desktop_core-2.zip
+[Modules] Fetching discord_erlpack@1 from https://discordapp.com/api/modules/stable/discord_erlpack/1
+[Modules] Streaming discord_erlpack@1 [83129 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_erlpack-1.zip
+[Modules] Fetching discord_spellcheck@1 from https://discordapp.com/api/modules/stable/discord_spellcheck/1
+[Modules] Streaming discord_spellcheck@1 [10188966 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_spellcheck-1.zip
+[Modules] Fetching discord_utils@2 from https://discordapp.com/api/modules/stable/discord_utils/2
+[Modules] Streaming discord_utils@2 [1163282 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_utils-2.zip
+[Modules] Fetching discord_voice@3 from https://discordapp.com/api/modules/stable/discord_voice/3
+[Modules] Streaming discord_voice@3 [8837138 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_voice-3.zip
+[Modules] Finished module downloads. [success: 5] [failure: 0]
+[Modules] Relaunching to install module updates...
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/adri/.config/discord/0.0.8/modules
+[Modules] Module installed file path: /home/adri/.config/discord/0.0.8/modules/installed.json
+[Modules] Module download path: /home/adri/.config/discord/0.0.8/modules/pending
+[Modules] Installing updates...
+[Modules] Installing discord_desktop_core@2 from /home/adri/.config/discord/0.0.8/modules/pending/discord_desktop_core-2.zip
+[Modules] Installing discord_erlpack@1 from /home/adri/.config/discord/0.0.8/modules/pending/discord_erlpack-1.zip
+[Modules] Installing discord_spellcheck@1 from /home/adri/.config/discord/0.0.8/modules/pending/discord_spellcheck-1.zip
+[Modules] Installing discord_utils@2 from /home/adri/.config/discord/0.0.8/modules/pending/discord_utils-2.zip
+[Modules] Installing discord_voice@3 from /home/adri/.config/discord/0.0.8/modules/pending/discord_voice-3.zip
+[Modules] Finished module installations. [success: 5] [failure: 0]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_game_utils...
+[Modules] Fetching discord_game_utils@2 from https://discordapp.com/api/modules/stable/discord_game_utils/2
+[Modules] Starting to install discord_rpc...
+[Modules] Streaming discord_game_utils@2 [1182337 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_game_utils-2.zip
+[Modules] Fetching discord_rpc@1 from https://discordapp.com/api/modules/stable/discord_rpc/1
+[Modules] Installing discord_game_utils@2 from /home/adri/.config/discord/0.0.8/modules/pending/discord_game_utils-2.zip
+[Modules] Finished module installations. [success: 1] [failure: 0]
+[Modules] Streaming discord_rpc@1 [137974 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_rpc-1.zip
+[Modules] Finished module downloads. [success: 2] [failure: 0]
+[Modules] Installing discord_rpc@1 from /home/adri/.config/discord/0.0.8/modules/pending/discord_rpc-1.zip
+[Modules] Finished module installations. [success: 1] [failure: 0]
+[Modules] Starting to install discord_media...
+[Modules] Fetching discord_media@0 from https://discordapp.com/api/modules/stable/discord_media/0
+[Modules] Streaming discord_media@0 [251 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_media-0.zip
+[Modules] Finished module downloads. [success: 0] [failure: 1]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_contact_import...
+[Modules] Fetching discord_contact_import@1 from https://discordapp.com/api/modules/stable/discord_contact_import/1
+[Modules] Streaming discord_contact_import@1 [4058218 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_contact_import-1.zip
+[Modules] Finished module downloads. [success: 1] [failure: 0]
+[Modules] Installing discord_contact_import@1 from /home/adri/.config/discord/0.0.8/modules/pending/discord_contact_import-1.zip
+[Modules] Finished module installations. [success: 1] [failure: 0]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/adri/.config/discord/0.0.8/modules
+[Modules] Module installed file path: /home/adri/.config/discord/0.0.8/modules/installed.json
+[Modules] Module download path: /home/adri/.config/discord/0.0.8/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_media...
+[Modules] Fetching discord_media@0 from https://discordapp.com/api/modules/stable/discord_media/0
+[Modules] Streaming discord_media@0 [251 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_media-0.zip
+[Modules] Finished module downloads. [success: 0] [failure: 1]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/adri/.config/discord/0.0.8/modules
+[Modules] Module installed file path: /home/adri/.config/discord/0.0.8/modules/installed.json
+[Modules] Module download path: /home/adri/.config/discord/0.0.8/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_media...
+[Modules] Fetching discord_media@0 from https://discordapp.com/api/modules/stable/discord_media/0
+[Modules] Streaming discord_media@0 [251 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_media-0.zip
+[Modules] Finished module downloads. [success: 0] [failure: 1]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/adri/.config/discord/0.0.8/modules
+[Modules] Module installed file path: /home/adri/.config/discord/0.0.8/modules/installed.json
+[Modules] Module download path: /home/adri/.config/discord/0.0.8/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_media...
+[Modules] Fetching discord_media@0 from https://discordapp.com/api/modules/stable/discord_media/0
+[Modules] Streaming discord_media@0 [251 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_media-0.zip
+[Modules] Finished module downloads. [success: 0] [failure: 1]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/adri/.config/discord/0.0.8/modules
+[Modules] Module installed file path: /home/adri/.config/discord/0.0.8/modules/installed.json
+[Modules] Module download path: /home/adri/.config/discord/0.0.8/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_media...
+[Modules] Fetching discord_media@0 from https://discordapp.com/api/modules/stable/discord_media/0
+[Modules] Streaming discord_media@0 [251 bytes] to /home/adri/.config/discord/0.0.8/modules/pending/discord_media-0.zip
+[Modules] Finished module downloads. [success: 0] [failure: 1]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/stable/versions.json
+[Modules] No module updates available.

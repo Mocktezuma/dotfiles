@@ -1,0 +1,23 @@
+body {
+	padding: 10px;
+
+	&:hover &::before {
+		display: block;
+	}
+}
+
+@media print {
+	a[foo="b:a;r"]::before {
+		::slotted(.foo) {
+			.foo.bar;
+			a:b;
+			#baz.bar
+		}
+	}
+}
+
+.foo,
+#bar
+{
+	margin: auto;
+}

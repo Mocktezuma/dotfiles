@@ -1,0 +1,4 @@
+.#{$foo + 1}bar {
+	padding-#{$bar}@{@baz}: 10px #{$baz};
+	margin: 10px;
+}

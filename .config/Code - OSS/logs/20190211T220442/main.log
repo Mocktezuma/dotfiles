@@ -1,0 +1,15 @@
+[2019-02-11 22:04:43.004] [main] [info] [storage] migrating global storage from localStorage into SQLite
+[2019-02-11 22:04:43.006] [main] [info] [storage] migrated global storage
+[2019-02-11 22:04:43.013] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2019-02-11 22:04:45.227] [main] [error] [uncaught exception in main]: TypeError: e.beginOnWillShutdown(...).finally is not a function
+[2019-02-11 22:04:45.227] [main] [error] TypeError: e.beginOnWillShutdown(...).finally is not a function
+    at App.<anonymous> (/usr/lib/code/out/vs/code/electron-main/main.js:300:769)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:121:20)
+    at App.emit (events.js:211:7)
+    at App.r (/usr/lib/code/out/vs/code/electron-main/main.js:300:585)
+    at emitOne (events.js:121:20)
+    at App.emit (events.js:211:7)
+    at P.close (/usr/lib/code/out/vs/code/electron-main/main.js:471:349)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:301:806
+    at <anonymous>
