@@ -1,0 +1,122 @@
+--- surf.c
++++ surf.c
+@@ -17,7 +17,6 @@
+ #include <limits.h>
+ #include <stdlib.h>
+ #include <stdio.h>
+-#include <ctype.h>
+ #include <webkit/webkit.h>
+ #include <glib/gstdio.h>
+ #include <JavaScriptCore/JavaScript.h>
+@@ -72,12 +71,6 @@ typedef struct {
+ 
+ G_DEFINE_TYPE(CookieJar, cookiejar, SOUP_TYPE_COOKIE_JAR_TEXT)
+ 
+-typedef struct {
+-	char *token;
+-	char *uri;
+-	int nr;
+-} SearchEngine;
+-
+ static Display *dpy;
+ static Atom atoms[AtomLast];
+ static Client *clients = NULL;
+@@ -148,9 +141,6 @@ static void loaduri(Client *c, const Arg *arg);
+ static void navigate(Client *c, const Arg *arg);
+ static Client *newclient(void);
+ static void newwindow(Client *c, const Arg *arg, gboolean noembed);
+-static const gchar *parseuri(const gchar *uri, char **parsed_uri);
+-static char **parse_address(const char *url);
+-static char **parse_url(char *str);
+ static void pasteuri(GtkClipboard *clipboard, const char *text, gpointer d);
+ static void populatepopup(WebKitWebView *web, GtkMenu *menu, Client *c);
+ static void popupactivate(GtkMenuItem *menu, Client *);
+@@ -176,7 +166,6 @@ static void togglescrollbars(Client *c, const Arg *arg);
+ static void togglestyle(Client *c, const Arg *arg);
+ static void updatetitle(Client *c);
+ static void updatewinid(Client *c);
+-static int url_has_domain(char *url, char **parsed_uri); 
+ static void usage(void);
+ static void windowobjectcleared(GtkWidget *w, WebKitWebFrame *frame,
+ 		JSContextRef js, JSObjectRef win, Client *c);
+@@ -627,63 +616,32 @@ loadstatuschange(WebKitWebView *view, GParamSpec *pspec, Client *c) {
+ 
+ static void
+ loaduri(Client *c, const Arg *arg) {
+-	const gchar *u;
+-	char *rp, *pt;
+-	const gchar *uri = arg->v;
+-	char **parsed_uri;
+-	char *home;
+-	char *path;
+-	int i;
+-	FILE *f;
++	char *u, *rp;
++	const char *uri = (char *)arg->v;
+ 	Arg a = { .b = FALSE };
++	struct stat st;
+ 
+-	if (*uri == '\0')
++	if(strcmp(uri, "") == 0)
+ 		return;
+ 
+-	pt=malloc(strlen(uri)+1);
+-	pt=strdup((char *)uri);
+-	parsed_uri = parse_url(pt);
+-
+ 	/* In case it's a file path. */
+-	if(strncmp(parsed_uri[0], "file://", 6) == 0 ||
+-		( strlen(parsed_uri[0]) == 0 && strlen(parsed_uri[1]) == 0)) {
+-		path=malloc(strlen(parsed_uri[1])+strlen(parsed_uri[2])+strlen(parsed_uri[3])+1);
+-		path=strcpy(path, parsed_uri[1]);
+-		path=strcat(path, parsed_uri[2]);
+-		path=strcat(path, parsed_uri[3]);
+-
+-		if (path[0] == '~')
+-		{
+-		    home = getenv("HOME");
+-		    home = realloc(home, strlen(path)+strlen(home));
+-		    home = strcat(home, path+1);
+-		    free(path);
+-		    path = home;
+-		}
+-		rp = realpath(path, NULL);
++	if(stat(uri, &st) == 0) {
++		rp = realpath(uri, NULL);
+ 		u = g_strdup_printf("file://%s", rp);
+-		free(path);
+ 		free(rp);
+ 	} else {
+-		u = parseuri(pt,parsed_uri);
++		u = g_strrstr(uri, "://") ? g_strdup(uri)
++			: g_strdup_printf("http://%s", uri);
+ 	}
+ 
+-	free(pt);
+-	for (i=0;i<4;i++)
+-	    free(parsed_uri[i]);
+-	free(parsed_uri);
+-
+ 	/* prevents endless loop */
+ 	if(c->uri && strcmp(u, c->uri) == 0) {
+ 		reload(c, &a);
+ 	} else {
+ 		webkit_web_view_load_uri(c->view, u);
+-		f = fopen(historyfile, "a+");
+-		fprintf(f, "%s", u);
+-		fclose(f);
+ 		c->progress = 0;
+ 		c->title = copystr(&c->title, u);
+-		g_free((gpointer )u);
++		g_free(u);
+ 		updatetitle(c);
+ 	}
+ }
+@@ -1070,7 +838,6 @@ setup(void) {
+ 
+ 	/* dirs and files */
+ 	cookiefile = buildpath(cookiefile);
+- 	historyfile = buildpath(historyfile);
+ 	scriptfile = buildpath(scriptfile);
+ 	stylefile = buildpath(stylefile);
+ 

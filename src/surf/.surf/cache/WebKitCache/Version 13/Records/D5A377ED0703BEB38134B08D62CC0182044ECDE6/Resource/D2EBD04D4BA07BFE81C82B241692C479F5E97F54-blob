@@ -1,0 +1,3316 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-KYH8zRCvGYQoVsdDKgYaJRXDN9CwQu0YkPVgbKm4cOiqLAxNisg2Kjex6tfrEB3yTAwtXcFY/sxBVj/3IkIiqg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-a70126cbff30372f13f599b76353080b.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-TmRm4ZOpoDJZ3T1VQ4RJdgLR/sRmpldhsaYgRq7DQvyoj0l6PyRzBm5mehB2zwYXOOuUcqDqm5ep3glspkN0aA==" rel="stylesheet" href="https://github.githubassets.com/assets/site-abcda8c311eff186ca592264c4f2b084.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-oE0cb3dq4/GWUOGEHwbrPrM8Q89jwhzagU63LSmshTOoyinZ7B0PHQT15FGWqX7EcTEFD0eOGjgwmwRz+uTbGg==" rel="stylesheet" href="https://github.githubassets.com/assets/github-3882572db3c1f0170c31041d9de0bb5e.css" />
+    
+    
+    
+    
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>A better default colorscheme? What&#39;s your favorite? 🤔 · Issue #23 · LukeSmithxyz/st · GitHub</title>
+    <meta name="description" content="I&#39;m getting a little annoyed by the default solarized colors and am thinking of replacing them. Does anyone have any particular colorscheme that they would recommend? Obviously it should be somewhat generic since it&#39;s default (i.e. not a...">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/29150857?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="A better default colorscheme? What&#39;s your favorite? 🤔 · Issue #23 · LukeSmithxyz/st" /><meta property="og:url" content="https://github.com/LukeSmithxyz/st/issues/23" /><meta property="og:description" content="I&amp;#39;m getting a little annoyed by the default solarized colors and am thinking of replacing them. Does anyone have any particular colorscheme that they would recommend? Obviously it should be som..." />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="A8B6:9BB8:B2719:116276:5C6D9620" data-pjax-transient>
+
+    <meta name="hovercard-subject-tag" content="issue:386492655" data-pjax-transient>
+
+  
+
+  <meta name="selected-link" value="repo_issues" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="A8B6:9BB8:B2719:116276:5C6D9620" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/issues/show" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZWY4YjI5OTY1NGJhY2FjNmM2MTNmZWFiNjA4ZDg3MjkyYjRhMmI2MWQ3OGI1OWQyMTk4ZTI3ODJlMTg3ODViZXx7InJlbW90ZV9hZGRyZXNzIjoiMTM0LjY5Ljg1LjI1MiIsInJlcXVlc3RfaWQiOiJBOEI2OjlCQjg6QjI3MTk6MTE2Mjc2OjVDNkQ5NjIwIiwidGltZXN0YW1wIjoxNTUwNjg1NzI5LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_BROWSING_V2">
+
+  <meta name="html-safe-nonce" content="fa942a4653074b69151932259d9df41daed3af7c">
+
+  <meta http-equiv="x-pjax-version" content="46a84a98793b68d0972fce919a93870f">
+  
+
+      <link href="https://github.com/LukeSmithxyz/st/commits/master.atom" rel="alternate" title="Recent Commits to st:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/LukeSmithxyz/st git https://github.com/LukeSmithxyz/st.git">
+
+  <meta name="octolytics-dimension-user_id" content="29150857" /><meta name="octolytics-dimension-user_login" content="LukeSmithxyz" /><meta name="octolytics-dimension-repository_id" content="117944122" /><meta name="octolytics-dimension-repository_nwo" content="LukeSmithxyz/st" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="117944122" /><meta name="octolytics-dimension-repository_network_root_nwo" content="LukeSmithxyz/st" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+  <link rel="apple-touch-icon" href="https://github.githubassets.com/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://github.githubassets.com/apple-touch-icon-180x180.png">
+  <meta name="apple-mobile-web-app-title" content="GitHub">
+
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+        
+<header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        </a>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out d-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-none">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 12 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0" aria-label="Global">
+          <ul class="d-flex list-style-none">
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#social-coding" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Social coding">Social coding</a></li>
+                      <li class="edge-item-fix"><a href="/features#documentation" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Documentation">Documentation</a></li>
+                      <li class="edge-item-fix"><a href="/features#code-hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Code hosting</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/case-studies" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Case studies">Case Studies <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class=" mr-3 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, click, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0  p-4 left-n4 position-absolute">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                      <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2  border-top pt-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class=" mr-3 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class=" mr-3 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap  d-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0  p-4 left-n4 position-absolute">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare features">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare features">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0  border-top pt-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex flex-items-center px-0 text-center text-left">
+          <div class="d-lg-flex mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="117944122" data-scoped-search-url="/LukeSmithxyz/st/search" data-unscoped-search-url="/search" action="/LukeSmithxyz/st/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=hTkAETPFVwTBQH7gMiW7S37xHsKzo0/owa6TDTZySOldKmgTXCH1n0LJBq35yGxyD41ZAqSDuSokKC1zQRn++w=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a class="HeaderMenu-link no-underline mr-3" href="/login?return_to=%2FLukeSmithxyz%2Fst%2Fissues%2F23" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign&nbsp;in</a>
+          <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign&nbsp;up</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div role="main" class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+  
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2FLukeSmithxyz%2Fst"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="/LukeSmithxyz/st/watchers"
+     aria-label="26 users are watching this repository">
+    26
+  </a>
+
+  </li>
+
+  <li>
+        <a href="/login?return_to=%2FLukeSmithxyz%2Fst"
+      class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+      aria-label="You must be signed in to star a repository" rel="nofollow">
+      <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      Star
+    </a>
+
+    <a class="social-count js-social-count" href="/LukeSmithxyz/st/stargazers"
+      aria-label="257 users starred this repository">
+      257
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FLukeSmithxyz%2Fst"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-s"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="/LukeSmithxyz/st/network/members" class="social-count"
+       aria-label="214 users forked this repository">
+      214
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/LukeSmithxyz/st">st</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+    aria-label="Repository"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /LukeSmithxyz/st" href="/LukeSmithxyz/st">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item selected reponav-item" aria-current="page" data-selected-links="repo_issues repo_labels repo_milestones /LukeSmithxyz/st/issues" href="/LukeSmithxyz/st/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">3</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /LukeSmithxyz/st/pulls" href="/LukeSmithxyz/st/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /LukeSmithxyz/st/projects" href="/LukeSmithxyz/st/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts security people /LukeSmithxyz/st/pulse" href="/LukeSmithxyz/st/pulse">
+      <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+      Insights
+</a>
+
+</nav>
+
+
+  </div>
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+    
+  <div class="issues-listing js-check-all-container" data-pjax>
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EIWJgachcYWRjkxxUXVYaF9y+NdRyIeT6/eP8RJr6sB6CYSa89eD8jDktkdCQYZN/L0ZCxuvmjPJw/ad8CzjnA==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 31 million developers working together to host and review code, manage projects, and build software together.</p>
+          <a class="btn btn-primary" href="/join?source=prompt-issue-show" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+  <div id="show_issue"
+        class="js-issues-results js-socket-channel js-updatable-content"
+        data-channel="issue:386492655:timeline">
+
+    
+  <div
+    id="partial-discussion-header"
+    class="gh-header js-details-container Details js-socket-channel js-updatable-content issue"
+    data-channel="issue:386492655"
+    data-url="/LukeSmithxyz/st/issues/23/show_partial?partial=issues%2Ftitle&amp;sticky=true"
+    data-gid="MDU6SXNzdWUzODY0OTI2NTU=">
+  <div class="gh-header-show ">
+      <div class="gh-header-actions">
+
+          
+<details class="details-reset details-overlay details-overlay-dark float-right" >
+  <summary
+    class="btn btn-sm btn-primary"
+    aria-haspopup="dialog"
+    data-ga-click="Issues, create new issue, view:issue_show location:issue_header style:button logged_in:false"
+    >
+    
+    New issue
+  </summary>
+  <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast overflow-auto" aria-label="Sign up for GitHub">
+    <button class="position-absolute p-4 right-0 btn-link muted-link" type="button" aria-label="Close dialog" data-close-dialog>
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    <div class="p-4 d-flex flex-column">
+            <div class="mt-3 mb-2 text-center">
+  <svg height="60" class="octicon octicon-comment-discussion text-blue" viewBox="0 0 16 16" version="1.1" width="60" aria-hidden="true"><path fill-rule="evenodd" d="M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z"/></svg>
+</div>
+
+<div class="px-4">
+  <p class="text-center mb-4">
+  <strong>Have a question about this project?</strong> Sign up for a free GitHub account to open an issue and contact its maintainers and the community.
+  </p>
+
+  <form class="js-signup-form" autocomplete="off" action="/join?return_to=%2FLukeSmithxyz%2Fst%2Fissues%2Fnew" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ekpj/VQrUUB23AIYnksJNfQbujKqJBHj4SzOyRP0zOQrdyiSz9Y2NSC0OnXQytdb3lArFXqtZsGug+3l+Ayy+A==" />    <auto-check src="/signup_check/username" csrf="sulEpiEXhdwI6oQDsvZlhLzeFvzGFi9R2TwqsxpSrl1OJAVjO7JERlWwdpE5IG9YjMIosnua8qE4gNpGkDkEnA==">
+      <dl class="form-group"><dt class="input-label"><label name="user[login]" autocapitalize="off" autofocus="autofocus" for="user_login_issues">Pick a username</label></dt><dd><input name="user[login]" autocapitalize="off" autofocus="autofocus" class="form-control" type="text" id="user_login_issues" /></dd></dl>
+    </auto-check>
+
+    <auto-check src="/signup_check/email" csrf="J5f3cv45WWaD1VUKMVfCTaCLd/6QJF1vIXgi0QxcwaSURvSPar99wTwfL+Q8lB8fKxlesnGoCCIY5HUYbhhxrw==">
+      <dl class="form-group"><dt class="input-label"><label name="user[email]" autocapitalize="off" for="user_email_issues">Email Address</label></dt><dd><input name="user[email]" autocapitalize="off" class="form-control" type="text" id="user_email_issues" /></dd></dl>
+    </auto-check>
+
+    <dl class="form-group"><dt class="input-label"><label name="user[password]" for="user_password_issues">Password</label></dt><dd><input name="user[password]" class="form-control" type="password" id="user_password_issues" /></dd></dl>
+
+    <input type="hidden" name="source" class="js-signup-source" value="modal-issues">
+    <input type="text" name="required_field_85a1" id="required_field_85a1" hidden="hidden" class="form-control" />
+<input type="hidden" name="timestamp" value="1550685729553" class="form-control" />
+<input type="hidden" name="timestamp_secret" value="3eff46be907340cb40377ad878906dc9ebe1daa1aba7f38ff814ee8d16f9a843" class="form-control" />
+
+
+    <button class="btn btn-primary mt-2 btn-block" type="submit" data-ga-click="(Logged out) New issue modal, clicked Sign up, text:sign-up">Sign up for GitHub</button>
+</form>
+  <p class="mt-4 text-gray text-center">By clicking &ldquo;Sign up for GitHub&rdquo;, you agree to our <a href="https://help.github.com/terms" target="_blank">terms of service</a> and
+  <a href="https://help.github.com/privacy" target="_blank">privacy statement</a>. We’ll occasionally send you account related emails.</p>
+  <p class="mt-4 text-gray text-center">Already on GitHub? <a href="/login?return_to=%2FLukeSmithxyz%2Fst%2Fissues%2Fnew" data-ga-click="(Logged out) New issue modal, clicked Sign in, text:sign-in">Sign in</a> to your account</p>
+</div>
+
+</div>
+  </details-dialog>
+</details>
+      </div>
+
+    <h1 class="gh-header-title">
+      <span class="js-issue-title">
+        A better default colorscheme? What&#39;s your favorite? 🤔
+      </span>
+      <span class="gh-header-number">#23</span>
+    </h1>
+  </div>
+
+
+  <div class="TableObject gh-header-meta">
+    <div class="TableObject-item">
+        <div class="State State--red">
+    <svg class="octicon octicon-issue-closed" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"/></svg>
+    Closed
+  </div>
+
+    </div>
+    <div class="TableObject-item TableObject-item--primary">
+        <a class="author text-bold link-gray" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a>  opened this <span class="noun">Issue</span>
+<relative-time datetime="2018-12-01T20:03:43Z">Dec 1, 2018</relative-time>
+&middot; 13 comments
+
+    </div>
+  </div>
+    <div class="js-sticky js-sticky-offset-scroll top-0 gh-header-sticky" aria-hidden="true">
+      <div class="sticky-content">
+        <div class="d-flex flex-items-center flex-justify-between mt-2">
+          <div class="d-flex flex-row flex-items-center">
+            <div class="mr-2 flex-shrink-0">
+                <div class="State State--red">
+    <svg class="octicon octicon-issue-closed" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z"/></svg>
+    Closed
+  </div>
+
+            </div>
+            <div>
+              <h1 class="text-bold f5">
+  <a class="js-issue-title css-truncate css-truncate-target link-gray-dark" href="#" style="max-width: 48em">A better default colorscheme? What&#39;s your favorite? 🤔</a>
+  <span class="gh-header-number text-gray-light pr-1">#23</span>
+</h1>
+
+              <div class="meta text-gray-light">
+                  <a class="author text-bold link-gray" data-hovercard-z-index-override="111" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a>  opened this <span class="noun">Issue</span>
+<relative-time datetime="2018-12-01T20:03:43Z">Dec 1, 2018</relative-time>
+&middot; 13 comments
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gh-header-shadow box-shadow"></div>
+</div>
+
+
+    <h2 class="sr-only">Comments</h2>
+    <div id="discussion_bucket" class="clearfix">
+      <div class="discussion-sidebar">
+        <div id="partial-discussion-sidebar"
+  class="js-socket-channel js-updatable-content"
+  data-channel="issue:386492655"
+  data-gid="MDU6SXNzdWUzODY0OTI2NTU="
+  data-url="/LukeSmithxyz/st/issues/23/show_partial?partial=issues%2Fsidebar">
+
+
+  <div class="discussion-sidebar-item sidebar-assignee js-discussion-sidebar-item">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-issue-sidebar-form" action="/LukeSmithxyz/st/issues/23?partial=issues%2Fsidebar%2Fshow%2Fassignees" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="ejTOyBovLJEDWYNiyw7kUgkLoCk8uwrpxsKt7EQupZx4/ILD0V+z9sJF2hMb9C8tWNbgtXcdUeMuS7TwPAjTMw==" />
+    
+
+  <div class="discussion-sidebar-heading text-bold">
+    Assignees
+  </div>
+
+    <span class="css-truncate js-issue-assignees">
+    No one assigned
+</span>
+
+</form></div>
+
+    <div class="discussion-sidebar-item sidebar-labels js-discussion-sidebar-item">
+  
+
+
+
+  <div class="discussion-sidebar-heading text-bold">
+    Labels
+  </div>
+
+  <div class="labels css-truncate js-issue-labels">
+      <a class="sidebar-labels-style box-shadow-none width-full d-block IssueLabel v-align-text-top" style="background-color: #33aa3f; color: #000000" data-name="help wanted" title="Extra attention is needed" href="/LukeSmithxyz/st/labels/help%20wanted"><span class="css-truncate-target" style="max-width: 100%">help wanted</span></a>
+  <a class="sidebar-labels-style box-shadow-none width-full d-block IssueLabel v-align-text-top" style="background-color: #cc317c; color: #ffffff" data-name="question" title="Further information is requested" href="/LukeSmithxyz/st/labels/question"><span class="css-truncate-target" style="max-width: 100%">question</span></a>
+
+</div>
+
+</div>
+
+    <div class="discussion-sidebar-item js-discussion-sidebar-item">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-issue-sidebar-form" action="/LukeSmithxyz/st/projects/issues/23" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="rqXO67eocLSmTectzRXhmKo5Lnocp8CtaJKgaLq7J3yNWw3jvj6MobJg2ad/Du/yuExY2wa8fX8PNjIkqmoo0w==" />
+    
+
+  <div class="discussion-sidebar-heading text-bold">
+    Projects
+  </div>
+
+    
+<span class="css-truncate sidebar-projects">
+    None yet
+</span>
+
+</form></div>
+
+    <div class="discussion-sidebar-item sidebar-milestone js-discussion-sidebar-item">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-issue-sidebar-form" action="/LukeSmithxyz/st/issues/23/set_milestone?partial=issues%2Fsidebar%2Fshow%2Fmilestone" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="KkaftXFqlrqcL7Wo4kBCZh7bCAv+qmfzUvUdTfAV050/ku2Eq0DZpUn86igjjZz3ldpiLUYZ6YvWfl7z7WyKHA==" />
+    
+
+  <div class="discussion-sidebar-heading text-bold">
+    Milestone
+  </div>
+
+      No milestone
+
+</form></div>
+
+  
+  <div id="partial-users-participants" class="discussion-sidebar-item">
+  <div class="participation">
+
+    <div class="discussion-sidebar-heading text-bold">
+      11 participants
+    </div>
+    <div class="participation-avatars d-flex flex-wrap">
+        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">
+          <img class="avatar" src="https://avatars1.githubusercontent.com/u/29150857?s=52&amp;v=4" width="26" height="26" alt="@LukeSmithxyz" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=28161197" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/kgnugur">
+          <img class="avatar" src="https://avatars0.githubusercontent.com/u/28161197?s=52&amp;v=4" width="26" height="26" alt="@kgnugur" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=30086673" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bigboymate">
+          <img class="avatar" src="https://avatars3.githubusercontent.com/u/30086673?s=52&amp;v=4" width="26" height="26" alt="@bigboymate" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=45318903" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/BankOfIndia">
+          <img class="avatar" src="https://avatars1.githubusercontent.com/u/45318903?s=52&amp;v=4" width="26" height="26" alt="@BankOfIndia" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=18244032" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/JShorthouse">
+          <img class="avatar" src="https://avatars0.githubusercontent.com/u/18244032?s=52&amp;v=4" width="26" height="26" alt="@JShorthouse" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=12065036" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/adimanea">
+          <img class="avatar" src="https://avatars3.githubusercontent.com/u/12065036?s=52&amp;v=4" width="26" height="26" alt="@adimanea" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=34523150" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/foldfree">
+          <img class="avatar" src="https://avatars2.githubusercontent.com/u/34523150?s=52&amp;v=4" width="26" height="26" alt="@foldfree" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=5038349" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/geowy">
+          <img class="avatar" src="https://avatars1.githubusercontent.com/u/5038349?s=52&amp;v=4" width="26" height="26" alt="@geowy" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=35015294" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/StillANixRookie">
+          <img class="avatar" src="https://avatars3.githubusercontent.com/u/35015294?s=52&amp;v=4" width="26" height="26" alt="@StillANixRookie" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29939805" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bepolymathe">
+          <img class="avatar" src="https://avatars3.githubusercontent.com/u/29939805?s=52&amp;v=4" width="26" height="26" alt="@bepolymathe" /> 
+</a>        <a class="participant-avatar" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=25131576" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Monirzadeh">
+          <img class="avatar" src="https://avatars3.githubusercontent.com/u/25131576?s=52&amp;v=4" width="26" height="26" alt="@Monirzadeh" /> 
+</a>    </div>
+  </div>
+</div>
+
+
+  
+
+
+
+  
+
+</div>
+
+      </div>
+
+      <div class="discussion-timeline js-quote-selection-container" data-quote-markdown=".js-comment-body" data-issue-and-pr-hovercards-enabled data-team-hovercards-enabled>
+
+        <div class="js-discussion js-socket-channel" data-channel="marked-as-read:issue:386492655">
+
+          
+<div class="timeline-comment-wrapper js-comment-container mt-0 js-socket-channel"
+  data-gid="MDU6SXNzdWUzODY0OTI2NTU="
+  data-url="/_render_node/MDU6SXNzdWUzODY0OTI2NTU=/issues/body"
+  data-channel="issue:386492655">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz"><img class="avatar rounded-1" height="44" width="44" alt="@LukeSmithxyz" src="https://avatars2.githubusercontent.com/u/29150857?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issue-386492655">
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="25aa7b3452ee3a5dfb5840269f2a3e86"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="YacWltwwqTSzkk/8+LTpuKWnx4GuWAYcKqKbyV0iNjCPZHqp6Z1jyGKyt4efvzR5549JI8yW+wYocLs+23947w==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issue-386492655-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+    <span class="timeline-comment-label text-bold tooltipped tooltipped-multiline tooltipped-s" aria-label="This user is the owner of the st repository.">
+      Owner
+    </span>
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issue-386492655" id="issue-386492655-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-01T20:03:43Z">Dec 1, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>I'm getting a little annoyed by the default solarized colors and am thinking of replacing them.</p>
+<p>Does anyone have any particular colorscheme that they would recommend?</p>
+<p>Obviously it should be somewhat generic since it's default (i.e. not all hot colors), but I'm pretty open. I just want it to have variant enough colors and look okay in most circumstances.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+        
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+
+          
+
+  <div id="js-timeline-progressive-loader" data-timeline-item-src="LukeSmithxyz/st/timeline?id=MDU6SXNzdWUzODY0OTI2NTU%3D&amp;variables%5Bafter%5D=Y3Vyc29yOnYyOpPPAAABZ6mxuQABqjIwMjU1MTI1MzM%3D&amp;variables%5Bfirst%5D=60" ></div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOkxhYmVsZWRFdmVudDE5OTk2NTkwNDU=">
+  
+        <div class="discussion-item discussion-item-labeled" data-team-hovercards-enabled>
+  <h3 class="discussion-item-header f5 text-normal" id="event-1999659045">
+
+    <span class="discussion-item-icon">
+      <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+    </span>
+
+    
+
+        <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz"><img class="avatar" height="16" width="16" alt="@LukeSmithxyz" src="https://avatars3.githubusercontent.com/u/29150857?s=60&amp;v=4" /></a>
+  <a class="author text-inherit" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a>
+  
+
+
+      
+
+    added
+      
+<span class="IssueLabel d-inline-block v-align-middle" title="Extra attention is needed" style="background-color: #33aa3f;">
+  <a class="lh-condensed-ultra" href="/LukeSmithxyz/st/labels/help%20wanted" style="color: #000000;">help wanted</a>
+</span>
+
+      
+<span class="IssueLabel d-inline-block v-align-middle" title="Further information is requested" style="background-color: #cc317c;">
+  <a class="lh-condensed-ultra" href="/LukeSmithxyz/st/labels/question" style="color: #ffffff;">question</a>
+</span>
+
+  labels
+
+
+    <a href="#event-1999659045" class="timestamp"><relative-time datetime="2018-12-01T20:03:43Z">Dec 1, 2018</relative-time></a>
+
+  </h3>
+</div>
+
+
+
+
+</div>
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ1NDkzNA==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ1NDkzNA=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ1NDkzNA==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=28161197" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/kgnugur"><img class="avatar rounded-1" height="44" width="44" alt="@kgnugur" src="https://avatars3.githubusercontent.com/u/28161197?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443454934">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="735b8a870a114183568b49df1799f5c1">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="735b8a870a114183568b49df1799f5c1"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="SSx/ucruxbhYNPzUWTwWap/WzeBjD2xXy6le27vlyvin7xOG/0MPRIkUBK8+N8ur3f5DQgHBkU3Je34sPbiEJw==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443454934-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=28161197" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/kgnugur">kgnugur</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443454934" id="issuecomment-443454934-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-01T20:12:35Z">Dec 1, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+        
+  <span class="d-inline-block text-gray-light">&#8226;</span>
+
+  <details class="details-overlay details-reset d-inline-block dropdown">
+    <summary class="btn-link no-underline text-gray js-notice">
+      <div class="position-relative">
+        <span>
+            edited
+        </span>
+        <svg height="11" class="octicon octicon-triangle-down v-align-middle" viewBox="0 0 12 16" version="1.1" width="8" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg>
+      </div>
+    </summary>
+    <details-menu class="anim-scale-in dropdown-menu dropdown-menu-se py-0" style="width:352px" src="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ1NDkzNA==/comments/comment_edit_history_log" preload>
+      <include-fragment class="octocat-spinner my-3" aria-label="Loading"></include-fragment>
+    </details-menu>
+  </details>
+
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>I would recommend <strong>gruvbox.</strong> It has less emphasis on blue than solarized. You've probably heard it already , it's pretty good.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions has-reactions js-reactions-container "
+
+    >
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-pick-reaction" action="/users/LukeSmithxyz/reactions" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="qj8MYOzD/4XhRo/XrXeFON2SMKWy4c4yM7z8bLVczotHRhAcp8GB0FPVAdzZCw6oqgs/SJK7Wz37VgVKIgYhHA==" />
+      <input type="hidden" name="input[subjectId]" value="MDEyOklzc3VlQ29tbWVudDQ0MzQ1NDkzNA==">
+
+      <div class="comment-reactions-options">
+          <button disabled
+                  class="btn-link reaction-summary-item tooltipped tooltipped-se tooltipped-multiline "
+                  name="input[content]"
+                  type="submit"
+                  value="THUMBS_UP react"
+                  aria-label="inVariabl, guilhermedevaugusto, bridgesense, searedvandal, nolo18, zeljkobekcic, filalex77, and Jilano reacted with thumbs up emoji">
+            <g-emoji alias="+1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png" class="emoji mr-1">👍</g-emoji>
+            8
+          </button>
+      </div>
+</form></div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ1NTc0MA==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ1NTc0MA=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ1NTc0MA==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=30086673" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bigboymate"><img class="avatar rounded-1" height="44" width="44" alt="@bigboymate" src="https://avatars0.githubusercontent.com/u/30086673?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443455740">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="5ff2722f3778bf56d6976b103810507e">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="5ff2722f3778bf56d6976b103810507e"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="4irZfJPv5d/Xg+j5onTpSyqsP+s6x/ELtOMPtnJqDKYM6bVDpkIvIwajEILFfzSKaISxSVgJDBG2MS9B9DdCeQ==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443455740-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=30086673" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bigboymate">bigboymate</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443455740" id="issuecomment-443455740-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-01T20:23:58Z">Dec 1, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>Dracula if you really need a color scheme. Honestly it doesnt matter that much. All I did was lighten defaults. A bluish gray background, very light gray foreground (as opposed to nerd-white which burns my retinas), and I made the other colors less dark so they could actually be seen on a dark gray background.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ1Nzc0MQ==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ1Nzc0MQ=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ1Nzc0MQ==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz"><img class="avatar rounded-1" height="44" width="44" alt="@LukeSmithxyz" src="https://avatars2.githubusercontent.com/u/29150857?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443457741">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="d460739112360d15a7f7e9396fb79b4b">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="d460739112360d15a7f7e9396fb79b4b"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="WVo8LQx099u6mDe+jV3cEIqrvf07f+IQ579stpfRgd23mVASOdk9J2u4z8XqVgHRyIMzX1mxHwrlbUxBEYzPAg==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443457741-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+    <span class="timeline-comment-label text-bold tooltipped tooltipped-multiline tooltipped-s" aria-label="This user is the owner of the st repository.">
+      Owner
+    </span>
+
+
+  <span
+  class="timeline-comment-label tooltipped tooltipped-multiline tooltipped-s"
+  aria-label="This user is the author of this issue.">
+  Author
+</span>
+
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443457741" id="issuecomment-443457741-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-01T20:54:26Z">Dec 1, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p><a class="user-mention" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=28161197" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/kgnugur">@kgnugur</a> I actually really like this one. Haven't tried it until now, but it looks good.</p>
+<p><a class="user-mention" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=30086673" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/bigboymate">@bigboymate</a> Understandable, but I want to be sure that even noobs have a pretty usable setup off the bat since this is what the LARBS scripts install. I'm sort of thinking of removing pywal, which means that this theme would be more important. Of course I might just have it all in <code>~/.Xdefaults</code> instead and revert <code>st</code> back to its orignal colors.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ1ODczMQ==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ1ODczMQ=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ1ODczMQ==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=45318903" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/BankOfIndia"><img class="avatar rounded-1" height="44" width="44" alt="@BankOfIndia" src="https://avatars2.githubusercontent.com/u/45318903?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443458731">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="4fd6ecc93b9d533bcb0bfcb186457e10">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="4fd6ecc93b9d533bcb0bfcb186457e10"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="GRMWvb5LEeQOt8YoW/080x8fk95R3voYeDuzvaylH0j30HqCi+bbGN+XPlM89uESXTcdfDMQBwJ66ZNKKvhRlw==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443458731-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=45318903" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/BankOfIndia">BankOfIndia</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443458731" id="issuecomment-443458731-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-01T21:09:45Z">Dec 1, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p><code>export TERM=vt100</code> is the true patrician choice. Every other colorscheme is bloated and you will jump from it.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ2NDk0Mw==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ2NDk0Mw=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ2NDk0Mw==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=18244032" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/JShorthouse"><img class="avatar rounded-1" height="44" width="44" alt="@JShorthouse" src="https://avatars3.githubusercontent.com/u/18244032?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443464943">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="81da2b0bc7900453b18a2175f8d7cb6d">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="81da2b0bc7900453b18a2175f8d7cb6d"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="CeG4KNoEgxQ5WKTtiq/RnUyIB06yaQ2EBqww//TY8C/nItQX76lJ6Oh4XJbtpAxcDqCJ7NCn8J4EfhAIcoW+8A==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443464943-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=18244032" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/JShorthouse">JShorthouse</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443464943" id="issuecomment-443464943-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-01T22:50:58Z">Dec 1, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>I can second <strong>Gruvbox</strong>, been using it for a couple of years now and have no desire to switch to anything else.<br>
+I see that you've already taken a look, but for the convenience of others reading this thread, here's a link to the github page with previews:<br>
+<a href="https://github.com/morhetz/gruvbox">https://github.com/morhetz/gruvbox</a></p>
+<p>It's worth noting that for some reason I don't fully understand the colours don't display properly in some terminals by default, you have to do some extra steps listed here:<br>
+<a href="https://github.com/morhetz/gruvbox/wiki/Terminal-specific">https://github.com/morhetz/gruvbox/wiki/Terminal-specific</a><br>
+(I had to source the <code>gruvbox_256palette.sh</code> script in my .zshrc and then all the colours displayed perfectly)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ2Njc5OQ==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ2Njc5OQ=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ2Njc5OQ==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz"><img class="avatar rounded-1" height="44" width="44" alt="@LukeSmithxyz" src="https://avatars2.githubusercontent.com/u/29150857?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443466799">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="50477d5f176487e1d1ac2c8adb692e1a">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="50477d5f176487e1d1ac2c8adb692e1a"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="ResQWe3wd+mUBrs4E60OjHu91YD15wPL09Q5cDGZiDirKHxm2F29FUUmQ0N0ptNNOZVbIpcp/tHRBhmHt8TG5w==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443466799-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+    <span class="timeline-comment-label text-bold tooltipped tooltipped-multiline tooltipped-s" aria-label="This user is the owner of the st repository.">
+      Owner
+    </span>
+
+
+  <span
+  class="timeline-comment-label tooltipped tooltipped-multiline tooltipped-s"
+  aria-label="This user is the author of this issue.">
+  Author
+</span>
+
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443466799" id="issuecomment-443466799-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-01T23:18:21Z">Dec 1, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>Yeah, honestly the more I use gruvbox the more I like it, it's working great. I'm going to set it as the default now, but if anyone has any other suggestions, feel free to offer them.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ4NjIzNw==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzQ4NjIzNw=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ4NjIzNw==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=12065036" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/adimanea"><img class="avatar rounded-1" height="44" width="44" alt="@adimanea" src="https://avatars0.githubusercontent.com/u/12065036?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443486237">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="1ba4e73591965a894530243dadcd680f">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="1ba4e73591965a894530243dadcd680f"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="OOqU16G17uDZz1J/UnCv9xk2m/fZ3sS3KUFSzoSWl/HWKfjolBgkHAjvqgQ1e3I2Wx4VVbsQOa0rk3I5AsvZLg==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443486237-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=12065036" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/adimanea">adimanea</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443486237" id="issuecomment-443486237-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-02T06:56:16Z">Dec 2, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+        
+  <span class="d-inline-block text-gray-light">&#8226;</span>
+
+  <details class="details-overlay details-reset d-inline-block dropdown">
+    <summary class="btn-link no-underline text-gray js-notice">
+      <div class="position-relative">
+        <span>
+            edited
+        </span>
+        <svg height="11" class="octicon octicon-triangle-down v-align-middle" viewBox="0 0 12 16" version="1.1" width="8" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg>
+      </div>
+    </summary>
+    <details-menu class="anim-scale-in dropdown-menu dropdown-menu-se py-0" style="width:352px" src="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzQ4NjIzNw==/comments/comment_edit_history_log" preload>
+      <include-fragment class="octocat-spinner my-3" aria-label="Loading"></include-fragment>
+    </details-menu>
+  </details>
+
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>Another vote for <strong>Gruvbox</strong> from me as well. I generally read in a sepia theme, including in Zathura and I find that Gruvbox complements it very well. My only complaint (which will probably wear on you as the blue in solarized) is the red. If you're using it in vim, there may be too many keywords highlighted in red, which can be annoying. My brain says reds belong (mostly) to errors or things of top importance, not some function name or harmless keyword.</p>
+<p>But you can desaturate, customize or mix them yourself, based on the <a href="https://github.com/morhetz/gruvbox">original</a> scheme (mentioned by <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=18244032" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/JShorthouse">@JShorthouse</a> as well). I also use it in st and love it.</p>
+<p>You could also be considering the <a href="http://chriskempson.com/projects/base16/" rel="nofollow">base16 family</a>. I especially like the <strong>eighties, ashes</strong> and <strong>embers</strong> variants.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzUxNDIyMw==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzUxNDIyMw=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzUxNDIyMw==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=34523150" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/foldfree"><img class="avatar rounded-1" height="44" width="44" alt="@foldfree" src="https://avatars1.githubusercontent.com/u/34523150?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443514223">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="b9180ad46b1a335ea6a60efe929b49e5">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="b9180ad46b1a335ea6a60efe929b49e5"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="Yym+Wt1ttepb1yEEBc7oqDsbhoRhgjRwmhwk4TRoPUuN6tJl6MB/For32X9ixTVpeTMIJgNMyWqYzgQWsjVzlA==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443514223-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=34523150" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/foldfree">foldfree</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443514223" id="issuecomment-443514223-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-02T15:02:42Z">Dec 2, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>gruvbox is the best, it's based on solarized minus the blue.<br>
+It's also well implemented in text editors like vim or kakoune, that has it built-in already, (pywal easily broke syntax highlighting for me)<br>
+there even is a gruvbox gtk-theme, so you can have a consistent environment switching from cli to gui programs.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzU3ODcyNA==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0MzU3ODcyNA=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0MzU3ODcyNA==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=5038349" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/geowy"><img class="avatar rounded-1" height="44" width="44" alt="@geowy" src="https://avatars2.githubusercontent.com/u/5038349?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-443578724">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="0adc7bb236fe97be1fc369917f5b2d8a">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="0adc7bb236fe97be1fc369917f5b2d8a"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="IUICLIOYH0+MkiTNSJmMX0wrUD7iqtyArClbfbefGInPgW4TtjXVs12y3LYvklGeDgPenIBkIZqu+3uKMcJWVg==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-443578724-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=5038349" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/geowy">geowy</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-443578724" id="issuecomment-443578724-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-03T03:30:51Z">Dec 3, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>I like brogrammer, gruvbox is too dull IMO</p>
+<p><a rel="nofollow" href="https://vimcolors.com/398/brogrammer/dark">https://vimcolors.com/398/brogrammer/dark</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0NDI5NzIyOQ==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0NDI5NzIyOQ=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0NDI5NzIyOQ==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=35015294" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/StillANixRookie"><img class="avatar rounded-1" height="44" width="44" alt="@StillANixRookie" src="https://avatars0.githubusercontent.com/u/35015294?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-444297229">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="21f1bd0374eac7eb58d2693221a667b0">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="21f1bd0374eac7eb58d2693221a667b0"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="7p5JyYbm8hBrTrE95dNdhgABTb6WoPFJ3Oj3hJmeeBcAXSX2s0s47LpuSUaC2IBHQinDHPRuDFPeOtdzH8M2yA==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-444297229-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=35015294" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/StillANixRookie">StillANixRookie</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-444297229" id="issuecomment-444297229-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-04T23:19:02Z">Dec 4, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>i second dracula.</p>
+<p>my favourites</p>
+<pre><code>!city-lights
+#define cblkd #181e24
+#define credd #d95468
+#define cgrnd #8bd49c
+#define cylwd #ebbf83
+#define cblud #539afc
+#define cgntd #b62d65
+#define ccynd #70e1e8
+#define cwhtd #718ca1
+#define cblkl #333f4a
+#define credl #d95468
+#define cgrnl #8bd49c
+#define cylwl #f7dab3
+#define cblul #5ec4ff
+#define cgntl #b62d65
+#define ccynl #70e1e8
+#define cwhtl #b7c5d3
+</code></pre>
+<pre><code>!deepjyot
+#define cblkd #1E2541
+#define credl #F0719B
+#define cgrnl #5AF7B0
+#define cylwl #FFA56B
+#define cblul #57C7FF
+#define cgntl #C792EA
+#define ccynl #89DDFF
+#define cwhtl #EEFFFF
+#define cblkl #354274
+#define credd #F02E6E
+#define cgrnd #2CE592
+#define cylwd #FF8537
+#define cblud #1DA0E2
+#define cgntd #A742EA
+#define ccynd #47BAE8
+#define cwhtd #DEE6E7
+</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0NTQzOTc1MA==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0NTQzOTc1MA=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0NTQzOTc1MA==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29939805" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bepolymathe"><img class="avatar rounded-1" height="44" width="44" alt="@bepolymathe" src="https://avatars0.githubusercontent.com/u/29939805?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-445439750">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="fd3b8b2ad593bdcb7b1306ca63ae00f6">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="fd3b8b2ad593bdcb7b1306ca63ae00f6"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="PToQGih4kcXYjEyQGGtKsDkvkRSE+yllRZ89a4vnUVXT+XwlHdVbOQmstOt/YJdxewcftuY11H9HTR2cDbofig==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-445439750-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29939805" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bepolymathe">bepolymathe</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-445439750" id="issuecomment-445439750-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-08T07:41:37Z">Dec 8, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>Pencil ?</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0NTU0MjM3OQ==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0NTU0MjM3OQ=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0NTU0MjM3OQ==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=25131576" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Monirzadeh"><img class="avatar rounded-1" height="44" width="44" alt="@Monirzadeh" src="https://avatars0.githubusercontent.com/u/25131576?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-445542379">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="0d68ea97e77da9142d84927045d6fc6f">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="0d68ea97e77da9142d84927045d6fc6f"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="B/BjTnQx2wQ5ZsnvS+vxHE1VIvTeQgMcOJEFJJIsXmXpMw9xQZwR+OhGMZQs4CzdD32sVryM/gY6QyXTFHEQug==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-445542379-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+
+
+  
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=25131576" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Monirzadeh">Monirzadeh</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-445542379" id="issuecomment-445542379-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-09T14:27:04Z">Dec 9, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>maybe you like One Half ½<br>
+<a href="https://github.com/sonph/onehalf">https://github.com/sonph/onehalf</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDEyOklzc3VlQ29tbWVudDQ0NzE0NDIzMA==">
+  
+    
+<div class="timeline-comment-wrapper js-comment-container"
+      data-gid="MDEyOklzc3VlQ29tbWVudDQ0NzE0NDIzMA=="
+      data-url="/_render_node/MDEyOklzc3VlQ29tbWVudDQ0NzE0NDIzMA==/timeline/issue_comment">
+
+  
+
+<div class="avatar-parent-child timeline-comment-avatar">
+    <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz"><img class="avatar rounded-1" height="44" width="44" alt="@LukeSmithxyz" src="https://avatars2.githubusercontent.com/u/29150857?s=88&amp;v=4" /></a>
+
+</div>
+
+
+  
+<div class="timeline-comment-group js-minimizable-comment-group targetable-comment-container-nojs js-targetable-comment" id="issuecomment-447144230">
+    <div class="minimized-comment d-none ">
+        
+
+<details class="Details-element details-reset border rounded-1 bg-white"
+       data-body-version="e15828c745ecbf4caa9805a689c8b611">
+    <summary class="bg-gray border-bottom-0 py-0 px-2">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <h3 class="timeline-comment-header-text f5 text-gray text-normal text-italic">
+              This comment has been minimized.
+
+        </h3>
+        <div class="text-gray text-small">
+          <a rel="nofollow" class="link-gray" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to view</a>
+        </div>
+      </div>
+    </summary>
+</details>
+
+
+    </div>
+  <div class="unminimized-comment comment previewable-edit js-comment js-task-list-container timeline-comment targetable-comment-container-nojs  "
+       data-body-version="e15828c745ecbf4caa9805a689c8b611"
+       data-unfurl-hide-url="/content_reference_attachments/hide"
+       data-unfurl-authenticity-token="hOSWa9VnKkeMbCWMOnDvb3b1SQnwij1gD4So7l+LTxlqJ/pU4Mrgu11M3fddezKuNN3Hq5JEwHoNVogZ2dYBxg==">
+
+    
+<div class="timeline-comment-header clearfix">
+  <div class="timeline-comment-actions">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="details-overlay details-reset position-relative d-inline-block ">
+  <summary class="btn-link timeline-comment-action">
+    <svg aria-label="Show options" class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+  </summary>
+  <details-menu class="dropdown-menu dropdown-menu-sw show-more-popover text-gray-dark anim-scale-in" style="width:185px">
+        <clipboard-copy
+    class="dropdown-item btn-link"
+    for="issuecomment-447144230-permalink"
+    aria-label="Copy link"
+    role="menuitem"
+    
+    >
+    Copy link
+  </clipboard-copy>
+
+        <button
+    type="button"
+    class="dropdown-item btn-link d-none js-comment-quote-reply"
+    role="menuitem">
+    Quote reply
+  </button>
+
+      
+  </details-menu>
+</details>
+
+  </div>
+
+    
+    <span class="timeline-comment-label text-bold tooltipped tooltipped-multiline tooltipped-s" aria-label="This user is the owner of the st repository.">
+      Owner
+    </span>
+
+
+  <span
+  class="timeline-comment-label tooltipped tooltipped-multiline tooltipped-s"
+  aria-label="This user is the author of this issue.">
+  Author
+</span>
+
+
+
+  <h3 class="timeline-comment-header-text f5 text-normal">
+
+
+    <strong class="css-truncate">
+      
+
+  <a class="author text-inherit css-truncate-target" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a>
+  
+
+    </strong>
+
+    commented
+
+      <a href="#issuecomment-447144230" id="issuecomment-447144230-permalink" class="timestamp js-timestamp"><relative-time datetime="2018-12-13T22:30:56Z">Dec 13, 2018</relative-time></a>
+
+
+    <span class="js-comment-edit-history">
+    </span>
+  </h3>
+</div>
+
+
+    <div class="edit-comment-hide">
+
+      
+<task-lists disabled sortable>
+<table class="d-block">
+  <tbody class="d-block">
+    <tr class="d-block">
+      <td class="d-block comment-body markdown-body  js-comment-body">
+
+          <p>Okay I'm going to go ahead and close this issue since I've changed the default to Gruvbox.</p>
+<p>Of course I've put documentation up as to how to change the colors via Xresources so hopefully everyone's needs can be met now. Thanks everyone!</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</task-lists>
+
+
+        
+
+<div class="comment-reactions  js-reactions-container "
+
+    >
+</div>
+
+
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+  
+  
+<div class="js-timeline-item js-timeline-progressive-focus-container" data-gid="MDExOkNsb3NlZEV2ZW50MjAyNTUxMjUzMw==">
+  
+        <div class="discussion-item discussion-item-closed" data-team-hovercards-enabled>
+  <h3 class="discussion-item-header f5 text-normal" id="event-2025512533">
+
+    <span class="discussion-item-icon">
+      <svg class="octicon octicon-circle-slash" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm0 1.3c1.3 0 2.5.44 3.47 1.17l-8 8A5.755 5.755 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zm0 11.41c-1.3 0-2.5-.44-3.47-1.17l8-8c.73.97 1.17 2.17 1.17 3.47 0 3.14-2.56 5.7-5.7 5.7z"/></svg>
+    </span>
+
+    
+
+        <a class="d-inline-block" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz"><img class="avatar" height="16" width="16" alt="@LukeSmithxyz" src="https://avatars3.githubusercontent.com/u/29150857?s=60&amp;v=4" /></a>
+  <a class="author text-inherit" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=29150857" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/LukeSmithxyz">LukeSmithxyz</a>
+  
+
+
+      
+closed this
+
+
+    <a href="#event-2025512533" class="timestamp"><relative-time datetime="2018-12-13T22:30:56Z">Dec 13, 2018</relative-time></a>
+
+  </h3>
+</div>
+
+  <div class="closed-banner"></div>
+
+
+
+</div>
+
+
+
+
+
+
+<!-- Rendered timeline since 2018-12-13 14:30:56 -->
+<div class="js-timeline-marker js-socket-channel js-updatable-content"
+      id="partial-timeline"
+      data-channel="issue:386492655"
+      data-url="/_render_node/MDU6SXNzdWUzODY0OTI2NTU=/issues/unread_timeline?variables%5BhasFocusedReviewComment%5D=false&amp;variables%5BhasFocusedReviewThread%5D=false&amp;variables%5BsyntaxHighlightingEnabled%5D=true&amp;variables%5BtimelinePageSize%5D=30&amp;variables%5BtimelineSince%5D=2018-12-13T22%3A30%3A56Z"
+      data-last-modified="Thu, 13 Dec 2018 22:30:56 GMT"
+      data-gid="MDU6SXNzdWUzODY0OTI2NTU=">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="d-none js-timeline-marker-form" action="/_graphql/MarkNotificationSubjectAsRead" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HJ171d5ZAGZGM2AO8evdXOpF0vrMdP6wXjmyATcHs9kc/rZ2aip2Bcdn3tTU4Ph2iEqLhov9yXFZwb1BKYCAIA==" />
+    <input type="hidden" name="variables[subjectId]" value="MDU6SXNzdWUzODY0OTI2NTU=">
+</form></div>
+
+
+        </div>
+
+
+        <div class="discussion-timeline-actions">
+                <div class="flash flash-warn mt-3">
+    <a rel="nofollow" class="btn btn-primary" href="/join?source=comment-repo">Sign up for free</a>
+    <strong>to join this conversation on GitHub</strong>.
+    Already have an account?
+    <a rel="nofollow" href="/login?return_to=https%3A%2F%2Fgithub.com%2FLukeSmithxyz%2Fst%2Fissues%2F23">Sign in to comment</a>
+</div>
+
+
+        </div>
+      </div>
+
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+  
+
+  </div>
+
+        
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2019 <span title="0.84380s from unicorn-b7c8675d8-jzbhs">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-47ZXWJASen/yLysPiEpAb7/WvHBIHIRKo+7W5g0YYFiInTWqpjYBHTpeHut0QWEf51gExNhSEy55XQmxrZ+0xA==" type="application/javascript" src="https://github.githubassets.com/assets/compat-742699bf681282d2e3cf809d2b9de73a.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-yLYTW7SOnRxxogj8zkmFCXPlAdXOWesewGjAgueQUPNG9ACk/bAs6fLtxJS4vuEPSgR0mDJTn+0uF3DLSzoG+Q==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-e7386fe0dfb42605619f7a70aed3204f.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-YKAQBagruVNM5vhISSK+jRSktfucirAokomSwDPGndk1nSbEIOsxxYUFZ5jJV6gjqhHrHzgCSpub48rd4UHQUw==" type="application/javascript" src="https://github.githubassets.com/assets/github-baf2061180e737799047f63fb9ed115e.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
+    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  </body>
+</html>
+
