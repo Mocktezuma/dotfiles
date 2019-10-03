@@ -1,0 +1,81 @@
+configuration {
+  font: "Source Code Pro 18";
+  show-icons: true;
+  drun-icon-theme: "Papirus";
+  fullscreen: true;
+  theme: "gruvbox";
+  display-drun: "❱";
+  display-run: "❱";
+  display-window: "❱";
+}
+
+* {
+  bgt: #282828dd;
+  bg: #282828;
+  sel: #928374dd;
+  red: #cc241d;
+  yellow: #d79921;
+  blue: #485888;
+  green: #98971a;
+  background-color: transparent;
+  text-color: #ebdbb2;
+  spacing: 0;
+}
+
+window {
+  transparency: "real";
+  background-color: @bgt;
+}
+
+mainbox {
+    padding: 25% 25%;
+}
+
+inputbar {
+  margin: 0px 0px 20px 0px;
+  children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+    text-color: @green;
+}
+
+textbox-prompt-colon {
+  expand: false;
+  str: " ";
+}
+
+listview {
+  spacing: 5px;
+  dynamic: true;
+  scrollbar: false;
+}
+
+element {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  highlight: @yellow;
+}
+
+element selected {
+  background-color: @sel;
+  transparency: "real";
+}
+
+element urgent, element selected urgent {
+  text-color: @red;
+}
+
+element active, element selected active {
+  text-color: @yellow;
+}
+
+message {
+  padding: 25% 25%;
+}
+
+button selected {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: @bg;
+}
