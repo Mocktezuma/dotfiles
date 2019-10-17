@@ -15,7 +15,7 @@ polybar top-ext&
 polybar bottom-ext&
 echo "Polybars launched..."
 
-nitrogen --restore
+wal -R
 
 echo "Wallpaper restored..."
 
@@ -25,6 +25,7 @@ echo "Compton launched..."
 
 redshift&
 echo "Started redshift"
+
 
 
 
