@@ -1,0 +1,38 @@
+* {{
+    background-color: #00000000;
+    background: #{background.strip}CC;
+    foreground: {foreground};
+    border-color: @background;
+    spacing: 2;
+        font:"3270SemiNarrow Nerd Font 50";
+        text-color: @foreground;
+
+}}
+
+#window {{
+
+  children: [ horibox ];
+  padding: 410 0 0 5%;
+  width: 100%;
+  height: 100%;
+  background-color: @background;
+
+}}
+#horibox {{
+  children: [ listview ];
+}}
+#listview {{
+  layout: horizontal;
+  spacing: 100px;
+  lines: 5;
+}}
+
+#element {{
+  padding: 100px 20px 100px 0px;
+  background-color: #0c051f00;
+  border-radius: 200;
+}}
+#element.selected {{
+  background-color: @foreground;
+  text-color: #0c051f;
+}}

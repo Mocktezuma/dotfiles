@@ -14,7 +14,7 @@ fi
 updates=$(("$updates_arch" + "$updates_aur"))
 
 if [ "$updates" -gt 0 ]; then
-    echo "痢 $updates"
+    echo " 痢 $updates"
 else
-    echo "裏 no updates"
+    echo " 裏 no updates"
 fi

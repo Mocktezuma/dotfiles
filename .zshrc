@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/home/adri/.local/bin:$PATH"
 # Path to your oh-my-zsh installation.
 export ZSH="/home/adri/.oh-my-zsh"
 
@@ -119,10 +120,20 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+source ~/.zplug/init.zsh
 alias vpn='sudo pvpn'
-alias ytmp3='youtube-dl -x --audio-format mp3 --audio-quality 0'
+alias ytmp3='youtube-dl --add-metadata -x --audio-format mp3 --output "%(title)s.%(ext)s" --audio-quality 0 --add-metadata --exec "mv {} /home/adri/Music/" $(xclip -o) && notify-send "youtube-dl" "download complete !"'
 alias music='ncmpcpp'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+alias vim='nvim'
+alias lacie='sudo media-automount /dev/sdd2'
+
+zplug "hlissner/zsh-autopair", defer:2
 
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_MODE='awesome-patched'
@@ -144,3 +155,5 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%K{white}%F{black} `date +%T` \UE12E 
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status nvm rvm background_jobs ram battery)
+export VISUAL=/usr/bin/nvim
+export EDITOR=/usr/bin/nvim

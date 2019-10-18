@@ -31,6 +31,12 @@ alias randomvpn='sudo protonvpn-cli -r connect'
 alias fastvpn='sudo protonvpn-cli -f connect'
 alias fastp2pvpn='sudo protonvpn-cli -p2p connect'
 alias stopvpn='sudo protonvpn-cli -d'
-alias vpn ='sudo pvpn'
+alias vpn='sudo pvpn'
+alias homecffUni='homecff Charmettes | dmenu'
+alias homecffGare='homecff Fribourg | dmenu'
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="/home/adri/.local/bin:$PATH"
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+

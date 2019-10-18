@@ -72,7 +72,7 @@ modules-right =  pulseaudio eth updates-arch-combined date
 [bar/top-ext]
 inherit = bar/top
 monitor = DP-2
-modules-right = date
+modules-right = mpd
 
 
 [bar/bottom]
@@ -567,12 +567,12 @@ format-background = ${colors.shade6}
 format-prefix-foreground = ${colors.shade6}
 format-prefix-background = ${colors.shade5}
 
-[module/system-usb-mount]
+[module/system-usb-udev]
 type = custom/script
-exec = /home/adri/.config/polybar/scripts/system-usb-mount.sh
+exec = /home/adri/.config/polybar/scripts/system-usb-udev.sh
 interval = 5
-click-left = /home/adri/.config/polybar/scripts/system-usb-mount.sh --mount
-click-right = /home/adri/.config/polybar/scripts/system-usb-mount.sh --unmount
+click-left = /home/adri/.config/polybar/scripts/system-usb-udev.sh --mount
+click-right = /home/adri/.config/polybar/scripts/system-usb-udev.sh --unmount
 
 format-prefix = %{T4}%{T-}
 format-foreground = ${colors.foreground}
@@ -585,12 +585,39 @@ type = custom/script
 exec = /home/adri/.config/polybar/scripts/protonvpn.sh
 interval = 6
 
-label-font = 5
+label-font = 2
 label = %output%
 label-padding = 2
 label-foreground = ${colors.shade1}
 label-background = ${colors.shade0}
 
+[module/mpd]
+type = internal/mpd
+format-online = <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next> <bar-progress> <label-time>  <label-song>
+format-icon-foreground = ${colors.shade1}
+format-icon-backgound = ${colors.shade0}
+
+icon-prev = 
+icon-seekb = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-seekf = 
+icon-next = 
+
+label-song-maxlen = 64
+label-song-ellipsis = true
+
+bar-progress-width = 10
+bar-progress-indicator = |
+bar-progress-indicator-foreground = #ff
+bar-progress-indicator-font = 2
+bar-progress-fill = ─
+bar-progress-fill-font = 2
+bar-progress-fill-foreground = #9f78e1
+bar-progress-empty = ─
+bar-progress-empty-font = 2
+bar-progress-empty-foreground = ${colors.foreground-alt}
 
 
 ; / __| __|_   _|_   _|_ _| \| |/ __/ __|
