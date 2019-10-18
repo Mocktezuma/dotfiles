@@ -1,0 +1,34 @@
+configuration {
+    show-icons: true;
+}
+ 
+* {
+    fg: #ff0000be;
+    bg: #dadadae1;
+    background-color: #00000000;
+    text-color: @fg;
+    font:"Hack Nerd Font 14";
+}
+ 
+#window {
+  children: [ horibox ];
+  background-color: @bg;
+  border-radius: 10px;
+  width: 24%;
+}
+#horibox {
+  children: [ listview ];
+}
+#listview {
+  layout: vertical;
+  lines: 4;
+}
+
+#element {
+  background-color: #0c051f00;
+  border-radius: 10px;
+}
+#element.selected {
+  background-color: @fg;
+  text-color: @bg;
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-rofi_command="rofi -theme ~/.cache/wal/colors-rofi-dark-menu-alternate.rasi"
+rofi_command="rofi -theme ~/.cache/wal/colors-rofi-dark-menu-mpc.rasi"
 
 mpc_status="$(mpc | grep playing)" 
 # Variable passed to rofi
@@ -15,7 +15,7 @@ else
 fi
 options="$backward\n$playPause\n$forward"
 
-chosen="$(echo -e "$options" | $rofi_command -dmenu -selected-row 2)"
+chosen="$(echo -e "$options" | $rofi_command -dmenu -selected-row 2 -p "Music")"
 case $chosen in
     $backward)
         mpc prev

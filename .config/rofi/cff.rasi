@@ -3,17 +3,19 @@ configuration {
 }
  
 * {
+    fg: #ff0000be;
+    bg: #dadadaa1;
     background-color: #00000000;
-    text-color: #f1d389;
+    text-color: @fg;
     font:"3270SemiNarrow Nerd Font 50";
 }
  
 #window {
   children: [ horibox ];
-  padding: 410 0 0 5%;
+  padding: 410 0 0 32%;
   width: 100%;
   height: 100%;
-  background-color: #0c051fb0;
+  background-color: @bg;
 
 }
 #horibox {
@@ -22,7 +24,7 @@ configuration {
 #listview {
   layout: horizontal;
   spacing: 100px;
-  lines: 5;
+  lines: 2;
 }
 
 #element {
@@ -31,7 +33,7 @@ configuration {
   border-radius: 200;
 }
 #element.selected {
-  background-color: #DE652E;
-  text-color: #0c051f;
+  background-color: @fg;
+  text-color: @bg;
 }
 

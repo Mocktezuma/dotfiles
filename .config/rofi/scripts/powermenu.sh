@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rofi_command="rofi -theme powermenu-theme.rasi"
+rofi_command="rofi -theme ~/.cache/wal/colors-rofi-dark-menu.rasi"
 
 ### Options ###
 power_off="襤  "
