@@ -64,6 +64,8 @@ font-4 = Space Mono:fontformat=truetype:weight=bold:size=13:antialias=true;4
 
 font-5 = FontAwesome:style=Regular:size=18:antialias=true;3
 
+font-6 = FontAwesome:style=Regular:size=30:antialias=true;3
+
 separator =
 modules-left = xwindow
 modules-center =  i3
@@ -80,13 +82,13 @@ inherit = bar/top
 bottom = true
 background = ${colors.foreground}
 foreground = ${colors.background}
-module-margin-left = 2
-module-margin-right = 2
-padding-left = 1
-padding-right = 2
+module-margin-left = 0
+module-margin-right = 0
+padding-left = 0
+padding-right = 0
 
 
-modules-left = vpn 
+modules-left = vpn ip
 modules-center = cpu memory gpu temperature filesystem
 modules-right = powermenu
 enable-ipc = true
@@ -288,7 +290,7 @@ format-connected = %{A1:tilix -e wicd-curses:} <label-connected>%{A}
 
 
 ;label-connected =  %essid%
-label-connected =  %local_ip% %downspeed:8:8% %{F#83a7b4}%{F-} %upspeed:8:8% %{F#83a7b4}%{F-}
+label-connected =  %local_ip% %downspeed:8:8% %{F#fffff}ﰶ%{F-} %upspeed:8:8% %{F#fffff}ﰭ%{F-}
 
 
 format-disconnected-prefix = %{T4}%{T-}
@@ -410,12 +412,12 @@ type = internal/cpu
 interval = 2
 
 label-font = 2
-format-prefix = %{T3}﬙ %{T-}
+format-prefix = "%{T3}﬙ %{T-} "
 format-label = <label>
 label = CPU%percentage:3%%
 format-foreground = ${colors.shade7}
 
-ramp-coreload-spacing = 1
+ramp-coreload-spacing = 4
 ramp-coreload-0 = %{T4}▁%{T-}
 ramp-coreload-1 = %{T4}▂%{T-}
 ramp-coreload-2 = %{T4}▃%{T-}
@@ -440,8 +442,8 @@ format = <label>
 format-warn = <label-warn>
 format-warn-underline =
 
-label = 﨏 %temperature-c%
-label-warn = 﨏 %temperature-c%
+label = " 﨏 %temperature-c% "
+label-warn = " 﨏 %temperature-c% "
 label-warn-foreground = #df3b3d
 format-foreground = ${colors.shade7}
 ;                   
@@ -455,9 +457,9 @@ type = internal/memory
 interval = 2
 
 label-font = 2
-format-prefix = %{T3} %{T-}
+format-prefix =" %{T3} %{T-}"
 format-label = <label>
-label = RAM%percentage_used:3%%
+label = "RAM%percentage_used:3%% "
 format-foreground = ${colors.shade7}
 
 
@@ -475,9 +477,9 @@ exec = ~/bin/system-nvidia-smi.sh
 interval = 10
 
 label-font = 2
-format-prefix = %{T3}ﮕ %{T-}
+format-prefix = " %{T3}ﮕ %{T-} "
 format-label = <label>
-label = GPU - Util %output%
+label = "GPU - Util %output% "
 format-foreground = ${colors.shade7}
 
 
@@ -585,17 +587,46 @@ type = custom/script
 exec = /home/adri/.config/polybar/scripts/protonvpn.sh
 interval = 6
 
-label-font = 2
 label = %output%
-label-padding = 2
-label-foreground = ${colors.shade1}
-label-background = ${colors.shade0}
+
+format-font = 5
+format = <label>
+format-prefix = "  "
+format-prefix-foreground = #ffffff
+format-prefix-background = ${colors.shade4}
+format-suffix = %{T4}%{T-}
+format-suffix-background = ${colors.shade8}
+format-suffix-foreground = ${colors.shade4}
+
+
+format-foreground = ${colors.shade0}
+format-background = ${colors.shade4}
+
+[module/ip]
+type = custom/script
+exec = /home/adri/.config/polybar/scripts/ip.sh
+interval = 6
+
+label = %output%
+
+format-font = 5
+format = <label>
+format-prefix-foreground = ${colors.shade4}
+format-prefix-background = ä{colors.shade8}
+
+format-foreground = ${colors.background}
+format-background = ${colors.shade8}
+
+format-suffix = %{T4}%{T-}
+format-suffix-foreground = ${colors.shade8}
+format-suffix-background = ${colors.background}
+
 
 [module/mpd]
 type = internal/mpd
 format-online = <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next> <bar-progress> <label-time>  <label-song>
-format-icon-foreground = ${colors.shade1}
-format-icon-backgound = ${colors.shade0}
+format-icon-foreground = ${colors.backgound}
+format-icon-backgound = ${colors.shade4}
 
 icon-prev = 
 icon-seekb = 
