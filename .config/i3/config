@@ -63,7 +63,6 @@ client.background       #1f2430
 set $mod Mod4
 floating_modifier Mod4
 focus_follows_mouse no
-
 # Mouse related stuff \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 
 # The right button toggles floating
@@ -79,7 +78,7 @@ bindsym --whole-window button8 move right
 
 
 # start a terminal
-bindsym $mod+Return exec st
+bindsym $mod+Return exec kitty
 
 #make a screenshot
 bindsym $mod+Shift+s exec "maim -s | xclip -selection clipboard -t image/png"
@@ -90,7 +89,19 @@ bindsym $mod+d exec "rofi -show drun -theme ~/.cache/wal/colors-rofi-dark.rasi"
 
 bindsym $mod+Shift+e exec ~/.config/rofi/scripts/powermenu.sh
 
-bindsym $mod+Shift+o exec ~/.config/rofi/scripts/drivelauncher.sh
+bindsym $mod+Shift+p exec ~/.config/rofi/scripts/pvpn.sh
+
+bindsym $mod+Shift+g exec ~/.config/rofi/scripts/timetables.sh
+
+bindsym $mod+Shift+x exec clipmenu 
+
+bindsym $mod+Shift+b exec ~/bin/book-search.sh
+
+bindsym $mod+Shift+w exec --no-startup-id "rofi -show themes:~/.config/rofi/scripts/themeswitch.sh -theme ~/.cache/wal/colors-rofi-dark.rasi"
+bindsym $mod+Shift+h exec rofi-pass
+
+bindsym $mod+Shift+m exec ~/.config/rofi/scripts/mpcplayer.sh
+
 # Rofi menus \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
 
@@ -104,23 +115,24 @@ bindsym Mod1+Control+Right workspace next
 bindsym Mod1+Control+Up exec --no-startup-id ~/.config/rofi/scripts/i3_empty_workspace.sh
 # Workspace stuff \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 
-
-
+bindsym Print exec scrot $HOME/Pictures/`date +%Y-%m-%d_%H:%M:%S`.png
 
 # Application launch shortcuts \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-bindsym $mod+Shift+t exec --no-startup-id desktop-reset.sh
+bindsym $mod+Shift+t exec --no-startup-id /home/adri/bin/desktop-reset.sh
 
 bindsym $mod+n exec --no-startup-id nautilus
 
 bindsym $mod+s [class="Indicator-stickynotes"] scratchpad show
 bindsym $mod+m [class="\bSpotify\b"] scratchpad show
 
+bindsym $mod+Shift+y exec youtube-dl --add-metadata -x --audio-format mp3 --audio-quality 0 E--exec "mv {} /home/adri/Music/" $(xclip -o) && notify-send "youtube-dl" "download complete !"
+
 # bindsym $mod+d exec --no-startup-id sh -c "pgrep indicator | xargs kill"
 
 bindsym $mod+c exec --no-startup-id sh -c "subl --project ~/Documents/mydotfiles_0.sublime-project"
 
-bindsym $mod+a exec vsc
-bindsym $mod+w exec waterfox
+bindsym $mod+f15 exec code-oss
+bindsym $mod+w exec firefox-developer-edition
 # Application launch shortcuts \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
 
@@ -294,6 +306,9 @@ bindsym $mod+y exec --no-startup-id flash_window
 exec --no-startup-id sudo setgovernor.sh
 exec /home/adri/bin/i3startup.sh
 exec_always --no-startup-id flashfocus
+exec mpd
+exec clipmenud
+
 
 exec --no-startup-id i3-msg 'workspace 3; exec firefox'
 
