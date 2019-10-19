@@ -96,6 +96,7 @@ bindsym $mod+Shift+g exec ~/.config/rofi/scripts/timetables.sh
 bindsym $mod+Shift+x exec clipmenu 
 
 bindsym $mod+Shift+b exec ~/bin/book-search.sh
+bindsym $mod+Shift+n exec ~/bin/mansplorer
 
 bindsym $mod+Shift+w exec --no-startup-id "rofi -show themes:~/.config/rofi/scripts/themeswitch.sh -theme ~/.cache/wal/colors-rofi-dark.rasi"
 bindsym $mod+Shift+h exec rofi-pass

@@ -64,7 +64,7 @@ main() {
   book=$( (gen_list) | rofi -theme ~/.cache/wal/colors-rofi-dark.rasi -font "hack 10" -dmenu -i -matching fuzzy -no-custom -location 0 -p "Book " )
 
   if [ -n "$book" ]; then
-    xdg-open "${BOOKS[$book]}"
+    zathura --config-dir="/home/adri/.cache/wal/" "${BOOKS[$book]}"
   fi
 }
 
