@@ -29,7 +29,7 @@ shade8 = ${xrdb:color8:#222}
 [bar/top]
 monitor = DP-0
 width = 100%
-height = 35
+height = 25
 offset-x = 0
 offset-y = 0 
 fixed-center = true
@@ -62,9 +62,9 @@ font-3 = 3270SemiNarrow Nerd Font:size=30:antialias=true;5
 
 font-4 = Space Mono:fontformat=truetype:weight=bold:size=13:antialias=true;4
 
-font-5 = FontAwesome:style=Regular:size=18:antialias=true;3
+font-5 = FontAwesome:style=Regular:size=18:antialias=true
 
-font-6 = FontAwesome:style=Regular:size=30:antialias=true;3
+font-6 = Unifont:style=Sans-Serif:size=30:antialias=true
 
 separator =
 modules-left = xwindow
@@ -74,7 +74,7 @@ modules-right =  pulseaudio eth updates-arch-combined date
 [bar/top-ext]
 inherit = bar/top
 monitor = DP-2
-modules-right = mpd
+modules-right = 
 
 
 [bar/bottom]
@@ -100,8 +100,8 @@ border-top-size = 3
 inherit = bar/bottom
 monitor = DP-2     
 
-modules-left = system-usb-udev
-modules-center = cpu memory gpu temperature filesystem
+modules-left = 
+modules-center = mpd
 modules-right =
 enable-ipc = true
 
@@ -200,7 +200,7 @@ time-alt = %I:%M %p %D
 
 format-prefix = %{T4}%{T-}
 format-prefix-foreground = ${colors.shade7}
-format-prefix-background = ${colors.shade6}
+format-prefix-background = ${colors.shade8}
 background = ${colors.shade6}
 
 format = <label>
@@ -565,8 +565,8 @@ interval = 600
 
 format-prefix = %{T4}%{T-}
 format-foreground = ${colors.foreground}
-format-background = ${colors.shade6}
-format-prefix-foreground = ${colors.shade6}
+format-background = ${colors.shade8}
+format-prefix-foreground = ${colors.shade8}
 format-prefix-background = ${colors.shade5}
 
 [module/system-usb-udev]
@@ -612,7 +612,7 @@ label = %output%
 format-font = 5
 format = <label>
 format-prefix-foreground = ${colors.shade4}
-format-prefix-background = ä{colors.shade8}
+format-prefix-background = ${colors.shade8}
 
 format-foreground = ${colors.background}
 format-background = ${colors.shade8}
@@ -623,32 +623,47 @@ format-suffix-background = ${colors.background}
 
 
 [module/mpd]
+format-font=6
 type = internal/mpd
-format-online = <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next> <bar-progress> <label-time>  <label-song>
-format-icon-foreground = ${colors.backgound}
-format-icon-backgound = ${colors.shade4}
+format-online = <bar-progress> <label-time> <icon-prev> <icon-seekb> <toggle> <icon-seekf> <icon-next> <icon-repeat> <icon-random> <label-song>
+format-playing = ${self.format-online}
+format-online-suffix = %{T4}%{T-}
+format-online-suffix-foreground = ${colors.shade5}
+format-online-suffix-background = ${colors.background}
+format-online-prefix = %{T4}%{T-}
+format-online-prefix-foreground = ${colors.shade5}
+format-online-prefix-background = ${colors.background}
+format-online-foreground = ${colors.background}
+format-online-background = ${colors.shade5}
 
-icon-prev = 
-icon-seekb = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-seekf = 
-icon-next = 
+label-song = %artist% - %title%
 
-label-song-maxlen = 64
+icon-play = ⏵
+icon-pause = ⏸
+icon-stop = ⏹
+icon-prev = ⏮
+icon-next = ⏭
+icon-seekb = ⏪
+icon-seekf = ⏩
+icon-random = 🔀
+icon-repeat = 🔁
+icon-repeatone = 🔂
+icon-single = 🔂
+
+label-song-maxlen = 20
 label-song-ellipsis = true
 
 bar-progress-width = 10
 bar-progress-indicator = |
-bar-progress-indicator-foreground = #ff
+bar-progress-indicator-foreground = ${colors.shade7}
 bar-progress-indicator-font = 2
 bar-progress-fill = ─
 bar-progress-fill-font = 2
-bar-progress-fill-foreground = #9f78e1
+bar-progress-fill-foreground = ${colors.shade7}
 bar-progress-empty = ─
 bar-progress-empty-font = 2
-bar-progress-empty-foreground = ${colors.foreground-alt}
+bar-progress-empty-foreground = ${colors.foreground}
+
 
 
 ; / __| __|_   _|_   _|_ _| \| |/ __/ __|
