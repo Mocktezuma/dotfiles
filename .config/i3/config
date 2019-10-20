@@ -17,7 +17,7 @@
 #                                  
                      
 font pango:Roboto, Light 0
-for_window [class=".*"] title_format "%title  ⋯  %class"
+# for_window [class=".*"] title_format "%title  ⋯  %class"
 title_align center
 
 # Set inner/outer gaps
@@ -39,6 +39,7 @@ mode "$mode_gaps" {
 for_window [class="^.*"] border pixel 0
 for_window [title="^.*"] border pixel 0
 
+for_window [class="kitty"] focus
 border_radius 6
 
 # default_floating_border pixel 0
@@ -132,7 +133,7 @@ bindsym $mod+Shift+y exec youtube-dl --add-metadata -x --audio-format mp3 --audi
 
 bindsym $mod+c exec --no-startup-id sh -c "subl --project ~/Documents/mydotfiles_0.sublime-project"
 
-bindsym $mod+f15 exec code-oss
+bindsym $mod+a exec code-oss
 bindsym $mod+w exec firefox-developer-edition
 # Application launch shortcuts \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
@@ -276,29 +277,6 @@ for_window [class="Plank"] floating enable
 for_window [class="rofi"] floating enable sticky enable
 
 
-for_window [class="Indicator-stickynotes"] floating enable
-for_window [class="Indicator-stickynotes"] move to scratchpad
-
-for_window [title="\bopencvimage\b"] floating enable
-for_window [title="\bopencvimage\b"] move position center
-
-for_window [class="Nitrogen"] floating enable
-
-for_window [class="Matplotlib"] floating enable resize set 1920 1080
-
-for_window [title="Simplenote"] floating enable sticky enable
-#for_window [class="Tilix"] floating enable resize set 853 480
-for_window [class="\bSpotify\b"] move to scratchpad
-
-for_window [title="transmission-gtk"] move window to workspace $ws9
-#for_window [class="Org.gnome.Nautilus"] floating enable resize set 1024 768
-for_window [class="Lxappearance"] floating enable resize set 1024 768
-
-# for_window [title="\bSublime Text\b"] floating enable resize set 1024 1280
-
-# for_window [title="\bSublime Text\b"] move position center
-
-#    ___ _____ _   ___ _____ _   _ ___ 
 #   / __|_   _/_\ | _ \_   _| | | | _ \
 #   \__ \ | |/ _ \|   / | | | |_| |  _/
 #   |___/ |_/_/ \_\_|_\ |_|  \___/|_|  
@@ -311,12 +289,12 @@ exec mpd
 exec clipmenud
 
 
-exec --no-startup-id i3-msg 'workspace 3; exec firefox'
+exec --no-startup-id i3-msg 'workspace 3; exec discord'
 
-exec --no-startup-id i3-msg 'workspace 4; exec subl'
+exec --no-startup-id i3-msg 'workspace 4; exec code-oss'
 
 exec --no-startup-id i3-msg 'workspace 1; exec tilix -x "gotop-cjbassi"'
 
-exec --no-startup-id i3-msg 'workspace 2; exec tilix'
+exec --no-startup-id i3-msg 'workspace 2; exec firefoxdeveloperedition'
 
 

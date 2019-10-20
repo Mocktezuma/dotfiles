@@ -22,7 +22,7 @@ BOOKS_DIR=~/Books
 mkdir -p ~/Books
 
 # Save find result to F_ARRAY
-readarray -t F_ARRAY <<< "$(find "$BOOKS_DIR" -type f -name '*.pdf')"
+readarray -t F_ARRAY <<< "$(find "$BOOKS_DIR" -type f -name '*.pdf' -o -name '*.epub' -o -name '*.mobi')"
 
 # Associative array for storing books
 # key => book name

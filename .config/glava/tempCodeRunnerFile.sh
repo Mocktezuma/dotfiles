@@ -1,0 +1,1 @@
+sed -n 10p ~/.cache/wal/colors

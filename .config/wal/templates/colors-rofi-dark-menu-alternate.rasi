@@ -1,6 +1,6 @@
 * {{
     background-color: #00000000;
-    background: #{color2.strip}CC;
+    background: #{color2.strip}00;
     background2: #{color0.strip};
     foreground: #{color7.strip};
     border-color: @background;
