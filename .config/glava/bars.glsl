@@ -3,7 +3,7 @@
 #define C_LINE 1
 
 /* width (in pixels) of each bar */
-#define BAR_WIDTH 4
+#define BAR_WIDTH 10
 /* width (in pixels) of each bar gap */
 #define BAR_GAP 2
 /* outline color */
@@ -13,8 +13,8 @@
 /* Amplify magnitude of the results each bar displays */
 #define AMPLIFY 240
 /* Bar color */
-#define COLOR (#1E455B * ((d / 60) + 1))
+#define COLOR (#3A4350 * ((d / 60) + 1))
 /* Direction that the bars are facing, 0 for inward, 1 for outward */
-#define DIRECTION 0
+#define DIRECTION 1
 /* Whether to switch left/right audio buffers */
-#define INVERT 0
+#define INVERT 1

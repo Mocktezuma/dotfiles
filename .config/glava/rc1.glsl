@@ -24,7 +24,7 @@
 /* Force window geometry (locking the window in place), useful
    for some pesky WMs that try to reposition the window when
    embedding in the desktop. */
-#request setforcegeometry false
+#request setforcegeometry true
 
 /* Set window background opacity mode. Possible values are:
    
@@ -70,7 +70,7 @@
    
    https://standards.freedesktop.org/wm-spec/wm-spec-1.3.html#idm140130317606816
 */
-#request setxwintype "normal"
+#request setxwintype "desktop"
 
 /* (X11 only) EWMH Window state atoms (multiple can be specified).
    Possible values are:
@@ -91,7 +91,7 @@
 // #request addxwinstate "sticky"
 // #request addxwinstate "skip_taskbar"
 // #request addxwinstate "skip_pager"
-// #request addxwinstate "above"
+#request addxwinstate "maximized_horz"
 // #request addxwinstate "pinned"
 
 /* PulseAudio source. Can be a number or a name of an audio
