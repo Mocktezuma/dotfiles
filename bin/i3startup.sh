@@ -23,9 +23,5 @@ compton&
 
 echo "Compton launched..."
 
-redshift&
-echo "Started redshift"
-
-
 
 

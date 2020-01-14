@@ -40,3 +40,4 @@ export PATH="/home/adri/.local/bin:$PATH"
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+

@@ -17,7 +17,7 @@
 #                                  
                      
 font pango:Roboto, Light 0
-# for_window [class=".*"] title_format "%title  ⋯  %class"
+for_window [class=".*"] title_format "%title  ⋯  %class"
 title_align center
 
 # Set inner/outer gaps
@@ -39,7 +39,7 @@ mode "$mode_gaps" {
 for_window [class="^.*"] border pixel 0
 for_window [title="^.*"] border pixel 0
 
-for_window [class="kitty"] focus
+for_window [class="st"] focus
 border_radius 6
 
 # default_floating_border pixel 0
@@ -79,14 +79,14 @@ bindsym --whole-window button8 move right
 
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec --no-startup-id "st"
 
 #make a screenshot
 bindsym $mod+Shift+s exec "maim -s | xclip -selection clipboard -t image/png"
 
 
 # Rofi menus \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-bindsym $mod+d exec "rofi -show drun -theme ~/.cache/wal/colors-rofi-dark.rasi"
+bindsym $mod+d exec --no-startup-id "rofi -show drun -theme ~/.cache/wal/colors-rofi-dark.rasi"
 
 bindsym $mod+Shift+e exec ~/.config/rofi/scripts/powermenu.sh
 
@@ -102,7 +102,7 @@ bindsym $mod+Shift+n exec ~/bin/mansplorer
 bindsym $mod+Shift+w exec --no-startup-id "rofi -show themes:~/.config/rofi/scripts/themeswitch.sh -theme ~/.cache/wal/colors-rofi-dark.rasi"
 bindsym $mod+Shift+h exec rofi-pass
 
-bindsym $mod+Shift+m exec ~/.config/rofi/scripts/mpcplayer.sh
+# bindsym $mod+Shift+m exec ~/.config/rofi/scripts/mpcplayer.sh
 
 # Rofi menus \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
@@ -127,7 +127,11 @@ bindsym $mod+n exec --no-startup-id nautilus
 bindsym $mod+s [class="Indicator-stickynotes"] scratchpad show
 bindsym $mod+m [class="\bSpotify\b"] scratchpad show
 
+bindsym $mod+Shift+v exec code
+
 bindsym $mod+Shift+y exec youtube-dl --add-metadata -x --audio-format mp3 --audio-quality 0 E--exec "mv {} /home/adri/Music/" $(xclip -o) && notify-send "youtube-dl" "download complete !"
+
+bindsym $mod+Shift+d exec discord
 
 # bindsym $mod+d exec --no-startup-id sh -c "pgrep indicator | xargs kill"
 
@@ -250,9 +254,11 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 workspace $ws1 output DP-0
 workspace $ws2 output DP-2
+workspace $ws3 output DP-0
+workspace $ws4 output DP-0
 workspace $ws8 output DP-2
 workspace $ws9 output DP-2
-workspace $ws10 output DP-0
+workspace $ws10 output DP-2
 
 # FOR THE LAPTOP \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
@@ -284,17 +290,12 @@ for_window [class="rofi"] floating enable sticky enable
 bindsym $mod+y exec --no-startup-id flash_window
 exec --no-startup-id sudo setgovernor.sh
 exec /home/adri/bin/i3startup.sh
-exec_always --no-startup-id flashfocus
 exec mpd
 exec clipmenud
-
-
-exec --no-startup-id i3-msg 'workspace 3; exec discord'
-
-exec --no-startup-id i3-msg 'workspace 4; exec code-oss'
-
-exec --no-startup-id i3-msg 'workspace 1; exec tilix -x "gotop-cjbassi"'
-
-exec --no-startup-id i3-msg 'workspace 2; exec firefoxdeveloperedition'
-
-
+exec "timew start 'computer'"
+assign [class="firefoxdeveloperedition"] 2
+assign [class="Navigator"] 3
+assign [class="discord"] 9
+assign [class="Music"] 10
+assign [class="code"] 4
+bindsym $mod+Shift+m exec st -c "Music" -e ncmpcpp

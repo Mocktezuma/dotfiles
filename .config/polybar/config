@@ -128,7 +128,7 @@ ws-icon-4 = 5;%{T5}5%{T-} 
 ws-icon-5 = 6;%{T5}6%{T-} 
 ws-icon-6 = 7;%{T5}7%{T-} 
 ws-icon-7 = 8; 
-ws-icon-8 = 9;
+ws-icon-8 = 9;%{T5}9%{T-} ﭮ
 ws-icon-9 = 10;%{T5}10%{T-} ﱘ
 
 label-mode =  %mode%
@@ -277,7 +277,7 @@ ramp-capacity-9 = %{T3} %{T-}
 
 [module/eth]
 type = internal/network
-interface = enp0s31f6
+interface = net0
 interval = 3.0
 
 format-connected-prefix = %{T4}%{T-}
@@ -358,9 +358,9 @@ label-muted-padding = 0
 
 [module/xwindow]
 type = internal/xwindow
-label-font = 5
+label-font = 2
 label = %title:0:50: ...%
-label-padding = 2
+label-padding = 1
 label-foreground = ${colors.shade1}
 label-background = ${colors.shade0}
 

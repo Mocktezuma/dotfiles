@@ -148,6 +148,7 @@ alias lt='ls --tree'
 alias vim='nvim'
 alias lacie='sudo media-automount /dev/sdd2'
 alias cat='bat'
+alias foldsize='du -hs * | sort -h'
 
 zplug "hlissner/zsh-autopair", defer:2
 
