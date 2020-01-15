@@ -289,7 +289,7 @@ for_window [class="rofi"] floating enable sticky enable
 #                                      
 bindsym $mod+y exec --no-startup-id flash_window
 exec --no-startup-id sudo setgovernor.sh
-exec /home/adri/bin/i3startup.sh
+exec /home/adri/Scripts/i3startup.sh
 exec mpd
 exec clipmenud
 exec "timew start 'computer'"

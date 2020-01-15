@@ -1,2 +1,0 @@
-#!/bin/sh
-man -Tpdf "$1" | zathura -c "~/.cache/wal" -

@@ -290,7 +290,7 @@ format-connected = %{A1:tilix -e wicd-curses:} <label-connected>%{A}
 
 
 ;label-connected =  %essid%
-label-connected =  %local_ip% %downspeed:8:8% %{F#fffff}ﰶ%{F-} %upspeed:8:8% %{F#fffff}ﰭ%{F-}
+label-connected =  %local_ip% %downspeed:8:8% %{F#fffff}ﰭ%{F-} %upspeed:8:8% %{F#fffff}ﰶ%{F-}
 
 
 format-disconnected-prefix = %{T4}%{T-}

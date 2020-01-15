@@ -1,10 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/Scripts
 export PATH="/home/adri/.local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+export TERM="st-256color"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -149,6 +150,8 @@ alias vim='nvim'
 alias lacie='sudo media-automount /dev/sdd2'
 alias cat='bat'
 alias foldsize='du -hs * | sort -h'
+alias update='sudo pacman -Syu'
+alias searchp='sudo pacman -Ss'
 
 zplug "hlissner/zsh-autopair", defer:2
 
