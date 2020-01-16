@@ -120,7 +120,7 @@ bindsym Mod1+Control+Up exec --no-startup-id ~/.config/rofi/scripts/i3_empty_wor
 bindsym Print exec scrot $HOME/Pictures/`date +%Y-%m-%d_%H:%M:%S`.png
 
 # Application launch shortcuts \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-bindsym $mod+Shift+t exec --no-startup-id /home/adri/bin/desktop-reset.sh
+bindsym $mod+Shift+t exec --no-startup-id /home/adri/Scripts/desktop-reset.sh
 
 bindsym $mod+n exec --no-startup-id nautilus
 
@@ -135,7 +135,6 @@ bindsym $mod+Shift+d exec discord
 
 # bindsym $mod+d exec --no-startup-id sh -c "pgrep indicator | xargs kill"
 
-bindsym $mod+c exec --no-startup-id sh -c "subl --project ~/Documents/mydotfiles_0.sublime-project"
 
 bindsym $mod+a exec code-oss
 bindsym $mod+w exec firefox-developer-edition
@@ -151,7 +150,7 @@ bindsym $mod+Shift+r restart
 
 
 # reload the configuration file
-bindsym $mod+Shift+c exec ~/bin/desktop-reset.sh
+bindsym $mod+Shift+c exec ~/Scripts/desktop-reset.sh
 
 bindsym $mod+r mode "resize"
 # resize window (you can also use the mouse for that)

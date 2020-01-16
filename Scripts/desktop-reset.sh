@@ -17,11 +17,11 @@ polybar bottom-ext &
 echo "Polybars relaunched..."
 
 # Terminate compton
-killall -q compton
+killall -q picom
 
 # Wait until the processes have been shut down
-while pgrep -u $UID -x compton >/dev/null; do sleep 1; done
+while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
 
-compton --backend glx &
+picom --backend glx &
 
 echo "Compton relaunched..."

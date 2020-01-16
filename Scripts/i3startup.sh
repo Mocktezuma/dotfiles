@@ -19,7 +19,8 @@ wal -R
 
 echo "Wallpaper restored..."
 
-compton&
+picom&
+
 
 echo "Compton launched..."
 
