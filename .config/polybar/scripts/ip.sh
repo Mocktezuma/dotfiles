@@ -1,5 +1,6 @@
 #!/bin/sh
-ip=$(sudo pvpn -ip)
+ip=$(protonvpn s | grep IP)
+
 
 echo " $ip "
 

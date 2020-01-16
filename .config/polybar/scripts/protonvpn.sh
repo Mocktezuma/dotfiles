@@ -1,13 +1,12 @@
 #!/bin/sh
-ip=$(sudo pvpn -ip)
-vpn_status=$(pvpn --status | grep OpenVPN)
+vpn_status=$(protonvpn s | grep Connected)
 
 
-if [ "$vpn_status" = "[OpenVPN Status]: Not Running" ]; then
+if [ "$vpn_status" = "Status:       Connected" ]; then
  
-	echo "Vpn offline"
-else
 	echo "Vpn online"
+else
+	echo "Vpn offline"
 fi
 
 

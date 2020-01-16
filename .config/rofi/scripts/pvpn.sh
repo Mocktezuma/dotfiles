@@ -13,16 +13,16 @@ options="$fast_connect\n$random_connect\n$p2p_connect\n$disconnect"
 chosen="$(echo -e "$options" | $rofi_command -dmenu -selected-row 2)"
 case $chosen in
     $fast_connect)
-     sudo pvpn -d && sudo pvpn -f
+     sudo protonvpn d && sudo protonvpn c -f
         ;;
     $random_connect)
-         sudo pvpn -d && sudo pvpn -r
+         sudo protonvpn d && sudo protonvpn c -r
         ;;
     $p2p_connect)
-        sudo pvpn -d && sudo pvpn -p2p
+        sudo protonvpn d && sudo protonvpn c --p2p
         ;;
     $disconnect)
-        sudo pvpn -d
+        sudo protonvpn d
         ;;
 esac
 
