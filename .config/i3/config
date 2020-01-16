@@ -294,7 +294,6 @@ exec mpd
 exec clipmenud
 exec "timew start 'computer'"
 assign [class="firefoxdeveloperedition"] 2
-assign [class="Navigator"] 3
 assign [class="discord"] 9
 assign [class="Music"] 10
 assign [class="code"] 4
