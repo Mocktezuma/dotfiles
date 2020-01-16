@@ -19,7 +19,7 @@
     font = Hack 13
     line_height = 0
     markup = full
-
+    corner_radius = 5 
     # The format of the message.  Possible variables are:
     #   %a  appname
     #   %s  summary

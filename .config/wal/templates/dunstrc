@@ -39,6 +39,7 @@
     class = Dunst
     startup_notification = false
     force_xinerama = false
+    corner_radius = 5
 
 [experimental]
     per_monitor_dpi = false

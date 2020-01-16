@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/Scripts
+export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/Scripts:$HOME/Devel/flutter/bin
 export PATH="/home/adri/.local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
@@ -107,7 +107,8 @@ f() {
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-flow git-flow-completion archlinux colorize django vi-mode vscode zsh-syntax-highlighting taskwarrior)
+plugins=(docker-compose docker-machine docker nmap systemd git git-flow git-flow-completion archlinux colorize django vi-mode vscode zsh-syntax-highlighting taskwarrior)
+
 
 source $ZSH/oh-my-zsh.sh
 
