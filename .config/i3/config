@@ -1,4 +1,4 @@
- #
+ 
 #  $$$$$$\  $$$$$$\         $$$$$$\   $$$$$$\  $$$$$$$\   $$$$$$\  
 #  \_$$  _|$$ ___$$\       $$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ 
 #    $$ |  \_/   $$ |      $$ /  \__|$$ /  $$ |$$ |  $$ |$$ /  \__|
@@ -286,10 +286,12 @@ for_window [class="rofi"] floating enable sticky enable
 #   \__ \ | |/ _ \|   / | | | |_| |  _/
 #   |___/ |_/_/ \_\_|_\ |_|  \___/|_|  
 #                                      
-bindsym $mod+y exec --no-startup-id flash_window
 exec --no-startup-id sudo setgovernor.sh
 exec /home/adri/Scripts/i3startup.sh
 exec mpd
+bindsym XF86AudioPrev exec mpc cdprev
+bindsym XF86AudioNext exec mpc next
+bindsym XF86AudioPlay exec mpc toggle
 exec clipmenud
 exec "timew start 'computer'"
 assign [class="firefoxdeveloperedition"] 2

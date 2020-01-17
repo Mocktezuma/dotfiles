@@ -18,7 +18,7 @@ options="$backward\n$playPause\n$forward"
 chosen="$(echo -e "$options" | $rofi_command -dmenu -selected-row 2 -p "Music")"
 case $chosen in
     $backward)
-        mpc prev
+        mpc cdprev
         ;;
     $playPause)
         mpc toggle
