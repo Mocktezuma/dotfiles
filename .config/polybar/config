@@ -493,6 +493,7 @@ label-mounted-font = 2
 mount-0 = /
 mount-1 = /boot
 mount-2 = /home
+mount-3 = /home/adri/BigData
 ; Seconds to sleep between updates
 ; Default: 30
 interval = 10
