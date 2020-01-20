@@ -1,0 +1,80 @@
+## ncmpcpp.
+ncmpcpp_directory = ~/.ncmpcpp
+
+##### connection settings #####
+mpd_host = localhost
+mpd_port = 6600
+mpd_connection_timeout = 5
+
+## Needed for tag editor and file operations to work.
+
+mpd_music_dir = /home/adri/Music/
+
+mpd_crossfade_time = 5
+
+# Display ..
+song_list_format = "{ $8%a $1>> $2}{%t}$8"
+song_status_format = "$8%a $5>> $2%t $5>> $2%b$8 (%y)$1"
+playlist_display_mode = "classic" (classic/columns)
+
+# Now Playing ..
+now_playing_suffix = "$/b"
+
+# Playlist ..
+browser_playlist_prefix = "$2 ♥ $0 "
+
+#
+playlist_disable_highlight_delay = "1"
+message_delay_time= "1"
+
+# Progress Bar ..
+progressbar_look = "─➤─"
+progressbar_color = "red"
+progressbar_elapsed_color = "blue"
+
+# Colors ..
+colors_enabled = "yes"
+empty_tag_color = "red"
+statusbar_color = "white"
+state_line_color = "white"
+state_flags_color = "green"
+header_window_color = "white"
+current_item_suffix = "$/r$(end)"
+current_item_prefix = "$(blue)$r"
+
+# Misc ..
+display_bitrate = "yes"
+autocenter_mode = "yes"
+titles_visibility = "no"
+empty_tag_marker=" -- ‼ -- "
+mouse_support = "yes"
+display_remaining_time = "yes"
+ask_before_clearing_playlists = "no"
+discard_colors_if_item_is_selected = "no"
+display_volume_level = yes
+screen_switcher_mode = media_library, playlist, browser, visualizer, clock
+startup_screen = media_library
+
+# Visualizer ..
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "30"
+visualizer_in_stereo = "no"
+visualizer_type = "spectrum"
+visualizer_look = "▋▋"
+visualizer_color = blue, cyan, magenta, red
+user_interface = 						"alternative"
+alternative_header_first_line_format = 	"$(white)─┤ $b$(magenta)%a$(end)$/b ├─$(end)"
+alternative_header_second_line_format =	"$(16)%t (%y)$(end)"
+alternative_ui_separator_color = 		"cyan"
+
+ Formato de canción:
+song_columns_list_format = 				"$L (10)[white]{n} $1│$7 (20)[magenta]{a} $1│$7 (20)[white]{b} $1│$7 (20)[magenta]{t} $1│$7 (20)[white]{l}"
+now_playing_prefix = 					"$b"
+centered_cursor = 						"no"
+cyclic_scrolling = 						"yes"
+mouse_list_scroll_whole_page = 			"no"
+
+# Varias configuraciones:
+header_visibility = 					"yes"
+statusbar_visibility = 					"yes"
