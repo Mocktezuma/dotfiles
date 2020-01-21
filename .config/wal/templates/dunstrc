@@ -73,3 +73,20 @@
     format = "<b>Now Playing</b>\n%s"
     new_icon = spotify
     timeout = 5
+
+[NCMPCPP]
+appname = NCMPCPP
+format = "Now Playing\n%s\n%b"
+timeout = 2
+
+[Transmission]
+appname = Transmission
+format = "Transmission\n%s\n%b"
+new_icon = Transmission
+timeout = 0
+
+[UpdateChecker]
+appname = UpdateChecker
+format = "System Notification\n%s\n%b"
+new_icon = UpdateChecker
+timeout = 0

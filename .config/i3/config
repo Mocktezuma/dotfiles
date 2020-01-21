@@ -295,6 +295,7 @@ bindsym XF86AudioNext exec mpc next
 bindsym XF86AudioPlay exec mpc toggle
 exec clipmenud
 exec --no-startup-id xbanish
+exec mpd-notify start & mpc play
 exec "timew start 'computer'"
 assign [class="firefoxdeveloperedition"] 2
 assign [class="discord"] 9
