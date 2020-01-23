@@ -286,7 +286,6 @@ for_window [class="rofi"] floating enable sticky enable
 #   \__ \ | |/ _ \|   / | | | |_| |  _/
 #   |___/ |_/_/ \_\_|_\ |_|  \___/|_|  
 #                                      
-exec --no-startup-id sudo setgovernor.sh
 exec /home/adri/Scripts/i3startup.sh
 exec mpd
 bindsym $mod+t exec feh ~/Pictures/tmuxCheatSheet.jpg
@@ -296,6 +295,7 @@ bindsym XF86AudioPlay exec mpc toggle
 exec clipmenud
 exec --no-startup-id xbanish
 exec mpd-notify start & mpc play
+exec --no-startup-id glava --desktop --entry=rc1.glsl
 exec "timew start 'computer'"
 assign [class="firefoxdeveloperedition"] 2
 assign [class="discord"] 9

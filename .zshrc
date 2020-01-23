@@ -93,6 +93,7 @@ export FFF_FAV4=~/Learn
 export FFF_FAV5=~/Src
 export FFF_FAV6=~/Documents
 export FFF_FAV7=~/Diary
+export FFF_FAV8=/run/media/adri/LaCie
 
 f() {
     fff "$@"
