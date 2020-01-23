@@ -39,7 +39,7 @@
               Has very little performance impact.
     
    "none"   - Disable window opacity completely. */
-#request setopacity "xroot"
+#request setopacity "native"
 
 /* Whether to mirror left and right audio input channels from PulseAudio.*/
 #request setmirror false
