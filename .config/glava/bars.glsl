@@ -13,7 +13,7 @@
 /* Amplify magnitude of the results each bar displays */
 #define AMPLIFY 400
 /* Bar color */
-#define COLOR (#048B7B * ((d / 60) + 1))
+#define COLOR (#4F554F * ((d / 60) + 1))
 /* Direction that the bars are facing, 0 for inward, 1 for outward */
 #define DIRECTION 1
 /* Whether to switch left/right audio buffers */
