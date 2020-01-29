@@ -109,7 +109,7 @@ ZSH_TMUX_AUTOSTART_ONCE=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(tmux docker-compose docker-machine docker nmap systemd git git-flow git-flow-completion archlinux colorize django vi-mode vscode zsh-syntax-highlighting taskwarrior)
+plugins=(pipenv npx npm pass gatsby tmux docker-compose docker-machine docker nmap systemd git git-flow git-flow-completion archlinux colorize django vi-mode vscode zsh-syntax-highlighting taskwarrior)
 
 
 source $ZSH/oh-my-zsh.sh

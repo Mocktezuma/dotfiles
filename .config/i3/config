@@ -137,7 +137,8 @@ bindsym $mod+Shift+d exec discord
 
 
 bindsym $mod+a exec code-oss
-bindsym $mod+w exec firefox-developer-edition
+bindsym $mod+w exec brave
+bindsym $mod+w+d ecec firefox-developer-edition
 # Application launch shortcuts \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
 
@@ -297,7 +298,8 @@ exec --no-startup-id xbanish
 exec mpd-notify start & mpc play
 exec --no-startup-id glava --desktop --entry=rc1.glsl
 exec "timew start 'computer'"
-assign [class="firefoxdeveloperedition"] 2
+assign [class="firefoxdeveloperedition"] 3
+assign [class="brave-browser"] 2
 assign [class="discord"] 9
 assign [class="Music"] 10
 assign [class="code"] 4
