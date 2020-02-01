@@ -124,8 +124,6 @@ bindsym $mod+Shift+t exec --no-startup-id /home/adri/Scripts/desktop-reset.sh
 
 bindsym $mod+n exec --no-startup-id nautilus
 
-bindsym $mod+s [class="Indicator-stickynotes"] scratchpad show
-bindsym $mod+m [class="\bSpotify\b"] scratchpad show
 
 bindsym $mod+Shift+v exec code
 
@@ -138,7 +136,7 @@ bindsym $mod+Shift+d exec discord
 
 bindsym $mod+a exec code-oss
 bindsym $mod+w exec brave
-bindsym $mod+w+d ecec firefox-developer-edition
+bindsym $mod+m exec firefox-developer-edition
 # Application launch shortcuts \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
 
@@ -299,7 +297,7 @@ exec mpd-notify start & mpc play
 exec --no-startup-id glava --desktop --entry=rc1.glsl
 exec "timew start 'computer'"
 assign [class="firefoxdeveloperedition"] 3
-assign [class="brave-browser"] 2
+assign [class="Brave-browser"] 2
 assign [class="discord"] 9
 assign [class="Music"] 10
 assign [class="code"] 4
