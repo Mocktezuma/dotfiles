@@ -158,6 +158,9 @@ alias searchp='sudo pacman -Ss'
 alias enablessh='sudo systemctl start sshd'
 alias raspine='ssh pi@raspine'
 alias gitpi='ssh pi@gitpi'
+alias moon='curl wttr.in/Moon'
+alias lausanne='curl wttr.in/Lausanne'
+alias morges='curl wttr.in/Morges'
 
 zplug "hlissner/zsh-autopair", defer:2
 
