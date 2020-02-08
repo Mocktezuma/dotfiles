@@ -1,0 +1,15 @@
+# sample Regex file
+
+# it is useful to store regexes in a file and access them repeatedly defining placeholders at runtime vice 
+# constantly creating additional scripts to search on the regex of the day
+# it is also useful to be able to perform greplike functions across multiple lines and with the full power of Perl
+
+# the regexes are identified by index number eg 1.,2.,3., etc
+
+# search for whatever you specify A= at runtime ("xtract . RGXP -f Regex -value A=foo").  Return the whole line.  The same as grep run against a simple string value
+
+1. /\n.*?$A.*?\n/ 
+
+# search for A on one line and B on the next: "xtract . RGXP -f Regex -num 2 -value A=foo B=bar".  Note the use of "-num" to specific #2 in the file (might change to switch to "-#" if that doesn't create parsing issues)
+
+2. /$A\n$B/ 

@@ -1,0 +1,58 @@
+#!/usr/bin/perl
+
+my $ROOT = "/home/adri/bin/xtract/";
+
+use lib "/home/adri/bin/xtract/modules/";
+
+use myIO qw(read_binfile SetRoot);
+use dataman qw(IsolateContents);
+
+myIO::SetRootDir($ROOT);
+
+my @DataArray = ();                                   
+                                                      
+my $raw_datafile ='';
+my $raw_data;
+
+# provide feedback to the user absent full commands
+
+if ($#ARGV < 0) {myIO::ReturnProgramOptions();}       
+
+elsif ($#ARGV == 0) {myIO::ReturnProgramSubOptions($ARGV[0]);}                                
+
+# strip off filename, process data
+
+$raw_datafile = shift @ARGV;                         
+
+# raw data either is a handle to a directory or raw file contents
+
+if (-d $raw_datafile) {
+    $raw_data = $raw_datafile;    
+}
+else {
+    $raw_data = myIO::read_binfile($raw_datafile);        
+    
+}
+
+push @DataArray,$raw_data;
+push @ARGV,$raw_datafile;           
+
+my $ReturnData = dataman::IsolateContents(\@DataArray,\@ARGV);
+
+# prepare for output
+
+if (! $ReturnData) {
+
+    unless ($ARGV[0] eq "ALL") {    
+	print "no $ARGV[0] instances found!\n";
+    }
+
+} 
+
+else {
+
+    myIO::ReturnOutput($ReturnData,\@ARGV);
+}
+
+1;
+

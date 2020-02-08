@@ -1,0 +1,2 @@
+#!/bin/sh
+man -k . | rofi -theme ~/.cache/wal/colors-rofi-dark.rasi -dmenu -l 8 -p "manpages" | awk '{print $1}' | xargs -r man -Tpdf | zathura  -c ~/.cache/wal -
