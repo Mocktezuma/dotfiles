@@ -1,0 +1,1 @@
+/home/adri/.cache/wal/theme.py
