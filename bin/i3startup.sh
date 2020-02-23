@@ -25,4 +25,4 @@ picom&
 echo "Compton launched..."
 
 
-
+sudo protonvpn c -f

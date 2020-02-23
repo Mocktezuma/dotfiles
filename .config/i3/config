@@ -285,7 +285,7 @@ for_window [class="rofi"] floating enable sticky enable
 #   \__ \ | |/ _ \|   / | | | |_| |  _/
 #   |___/ |_/_/ \_\_|_\ |_|  \___/|_|  
 #                                      
-exec /home/adri/Scripts/i3startup.sh
+exec /home/adri/bin/i3startup.sh
 exec mpd
 bindsym $mod+t exec feh ~/Pictures/tmuxCheatSheet.jpg
 bindsym XF86AudioPrev exec mpc cdprev
