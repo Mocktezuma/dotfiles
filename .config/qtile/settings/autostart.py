@@ -10,7 +10,7 @@ def init_apps():
         ['wal','-R'],
         [
             'xautolock',
-            '-time', '5',
+            '-time', '25',
             '-corners',
             '-000',
             '-cornersize',
@@ -20,6 +20,7 @@ def init_apps():
         ],
         # Optional
         ['mpd']
+        ['timew', 'start', "'computer'"]
     ]
 
     for p in processes:

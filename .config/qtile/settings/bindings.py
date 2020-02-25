@@ -31,6 +31,7 @@ qtile = [
     # multiple stack panes
     Key([mod, "shift"], "Return", lazy.layout.toggle_split()),
     Key([mod], "Return", lazy.spawn("st")),
+    Key([mod], "w", lazy.spawn("brave")),
 
     # Shrink/Grow
     Key([mod], "i", lazy.layout.grow()),
@@ -62,15 +63,16 @@ system = [
 rofi = [
     Key([mod], "d", lazy.spawn(
         "rofi -show drun -theme ~/.cache/wal/colors-rofi-dark.rasi")),
-    Key([mod, "shift"], "e", lazy.spawn("./~/.config/rofi/scripts/powermenu.sh")),
+    Key([mod, "shift"], "e", lazy.spawn("st -e sh ./.config/rofi/scripts/powermenu.sh")),
     Key([mod, "shift"], "w", lazy.spawn(
-        "rofi -show themes:~/.config/rofi/scripts/themeswitch.sh -theme ~/.cache/wal/colors-rofi-dark.rasi"))
+            "rofi -show themes:~/.config/rofi/scripts/themeswitch.sh -theme ~/.cache/wal/colors-rofi-dark.rasi")),
+     Key([mod, "shift"], "p", lazy.spawn("st -e sh ./.config/rofi/scripts/pvpn.sh"))
 ]
 
 mpc = [
     Key([], 'XF86AudioPlay', lazy.spawn("mpc toggle")),
     Key([], 'XF86AudioNext', lazy.spawn("mpc next")),
-    Key([], 'XF86AudioPrev', lazy.spawn("mpc prev"))
+    Key([], 'XF86AudioPrev', lazy.spawn("mpc cdprev"))
 ]
 
 keys = qtile + system + rofi + mpc
